@@ -1,0 +1,1 @@
+export {default as bannerbackimg} from './Rectangle.png'

@@ -1,0 +1,108 @@
+.footer-con{
+    background: #504D9E;
+    padding: 50px 80px 30px 80px;
+}
+.footer-svg{
+    display: flex;
+    width: 100% !important;
+}
+.footer-keep-text{
+    color: var(--Background-1, #FFF);
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 23px; /* 115% */
+}
+.footer-keep-text-links-div{
+    display: flex;
+   /*  justify-content: start; */
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.link-1{
+    width: 150px;
+}
+.footer-1-links{
+    color: var(--Background-1, #FFF);
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.footer-con-imag{
+    width: 80px;
+height: 40px;
+background: url(../../assets/at-front-clay.png);
+background-repeat: no-repeat !important;
+}
+.footer-con-imag-phone{
+    width: 80px;
+height: 40px;
+background: url(../../assets/phone-only-front-clay.png);
+background-repeat: no-repeat !important;
+}
+.footer-con-imag-location{
+    width: 80px;
+    height: 40px;
+    background: url(../../assets/map-pin-front-clay.png);
+    background-repeat: no-repeat !important;
+}
+.footer-logo-div{
+    display: flex;
+/* padding: 62px 17.32px 50.113px 20.999px; */
+width: 230px;
+height: 220px;
+justify-content: center;
+align-items: center;
+border-radius: 336px;
+background: var(--Background-1, #FFF);
+margin-left: 10px;
+}
+.footer-social-icons-div{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.footer-social-icons{
+    display: flex;
+width: 39px;
+height: 40px;
+padding: 11.7px 0px 9.1px 0px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+border-radius: 50px;
+background: var(--Background-1, #FFF);
+box-shadow: 0px 0px 3.9px 0px rgba(0, 0, 0, 0.20);
+}
+.copy-rights-div{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+flex-shrink: 0;
+border-top: 1px solid #7876AC;
+background: #504D9E;
+width: 100%;
+/* margin-top: 2rem; */
+}
+.copy-rights-con{
+    padding: 0 !important;
+}
+.copy-right-text{
+    color: var(--Background-1, #FFF);
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-left: 15px;
+}
+.footer-line-div{
+    width: 1px;
+height: 26px;
+background: #6F94BC;
+display: inline-block;
+margin-right: 15px;
+}

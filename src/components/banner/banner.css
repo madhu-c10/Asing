@@ -1,0 +1,115 @@
+.banner-container{
+    width: 1000px;
+height: 1803px;
+flex-shrink: 0;
+border-bottom-right-radius: 775px;
+border-bottom-left-radius: 250px;
+background: linear-gradient(180deg, #BDEDFF 67.3%, #BEC4FF 100%);
+margin-top: -1100px;
+/* margin-right: 50px; */
+}
+.banner-inner-div{
+    width: 515.757px; 
+height: 604.584px;
+margin-top: 100px;
+flex-shrink: 0;
+background: url(../../assets/Rectangle.svg);
+position: absolute;
+background-repeat: no-repeat;
+right: 0;
+}
+.banner-text-container{
+    position: absolute;
+    margin-top: 250px;
+    width: 60%;
+    margin-left: 40px;
+    z-index: 950;
+}
+.banner-titte-text{
+    color: #22577A;
+font-family: Montserrat;
+font-size: 35px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; /* 60px */
+}
+.banner-second-tittle{
+    color: #2C88D3;
+font-family: Montserrat;
+font-size: 35px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; /* 60px */
+margin-top: 20px;
+}
+.banner-p{
+    color: #2E2E2E;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; /* 24px */
+margin-top: 20px;
+}
+.button-banner {
+    align-items: center;
+    border-radius: 10px;
+    background: #504D9E;
+    cursor: pointer;
+    display: flex;
+    font-size: 16px;
+    /* width: 147px; */
+    height: 45px;
+    justify-content: center;
+    line-height: 24px;
+    padding: 0 25px;
+    position: relative !important;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    color: var(--Background-1, #FFF);
+    text-align: center;
+    font-family: "Montserrat" !important;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 154.74%;
+    /* 24.758px */
+    /*  touch-action: manipulation; */
+}
+
+.button-banner::after {
+    background-color: #111;
+    border-radius: 10px;
+    content: "";
+    display: block;
+    /* height: 48px; */
+    left: 0;
+    width: 100%;
+    position: absolute !important;
+    top: -2px;
+    transform: translate(8px, 8px);
+    transition: 5s ease-out;
+    z-index: -1;
+}
+
+.button-banner:hover::after {
+    /* transform: translate(0, 0); */
+    height: 45px !important;
+}
+
+.button-banner:active {
+    background: #504D9E;
+    outline: 0;
+}
+
+.button-banner:hover {
+    outline: 0;
+}
+
+@media (min-width: 768px) {
+    .button-banner {
+        padding: 0 40px;
+    }
+}
