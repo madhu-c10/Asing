@@ -1,12 +1,33 @@
+.banner-section{
+    background: #BDEDFF;
+    height: 860px;
+    border-radius: 10% 30% 50% 40%;
+}
 .banner-container{
     width: 1000px;
 height: 1803px;
 flex-shrink: 0;
 border-bottom-right-radius: 775px;
-border-bottom-left-radius: 250px;
+border-bottom-left-radius: 360px;
 background: linear-gradient(180deg, #BDEDFF 67.3%, #BEC4FF 100%);
 margin-top: -1100px;
 /* margin-right: 50px; */
+}
+.banner-bottom-svg{
+    left: -290px;
+    bottom: 40px;
+    position: relative;
+   /*  width: 114.207px;
+height: 114.207px; */
+transform: rotate(35.842deg);
+flex-shrink: 0;
+stroke-width: 10px;
+stroke: #5CCBF5;
+}
+.banner-svg-one{
+    top: -30px;
+    position: inherit;
+    left: -37px;
 }
 .banner-inner-div{
     width: 515.757px; 

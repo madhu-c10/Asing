@@ -2,12 +2,163 @@ import React from 'react';
 import Banner from '../../components/banner/Banner';
 import './home.css';
 import Button from '../../components/button/Button';
+import { topfeaturesimg } from '../../assets/image';
 
 function Home() {
     return (
         <div className='home-page'>
             <Banner />
-            <section className='home-cards-container'>
+            <section className='Top-Integrations-container'>
+                <div className='container'>
+                    <div className='row justify-content-center'>
+                        <div className='col-12'>
+                            <span className='Top-Integrations-header'>Top Integrations</span>
+                            <p className='Top-Integrations-para'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ut sem nec tor Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ut sem nec torLorem ipsum dolor sit amet, consectetur m u</p>
+                        </div>
+                    </div>
+                </div>
+                <div className='top-integration-svg-con'>
+                    <div className='container-fluid'>
+                        <div className='row'>
+                            <div className='col-12 svg-div'>
+                                <svg className='top-line-svg-1' xmlns="http://www.w3.org/2000/svg" width="1905" height="251" viewBox="0 0 1905 251" fill="none">
+                                    <path d="M1 250C91.8152 157.654 269.327 -171.866 620.622 117.482C898.223 346.13 1083.13 209.481 1206.7 151.974C1330.28 94.4657 1658.03 -75.8699 1904 59.9611" stroke="black" stroke-dasharray="9 9" />
+                                </svg>
+                                <svg className='top-line-svg-2' xmlns="http://www.w3.org/2000/svg" width="1945" height="182" viewBox="0 0 1945 182" fill="none">
+                                    <path d="M0 0.0653251C92.0601 85.2037 346.568 228.832 628.117 122.24C980.053 -10.9996 1206.72 -23.9104 1331.99 29.109C1457.25 82.1284 1559.26 220.899 1717.33 171.57C1843.79 132.106 1921.13 95.4986 1944 82.1276" stroke="black" stroke-dasharray="9 9" />
+                                </svg>
+                                <div className='icon-round-div'></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section className='top-fuatures-back-img'>
+                <div className='container'>
+                    <div className='row justify-content-center'>
+                        <div className='col-12'>
+                            <span className='cards-container-header'>Top Features</span>
+                            <div className="align-items-center">
+                                <div className="col">
+                                    <p className='top-features-para mt-4'>Utilize Active Directory for centralized user management, authentication, and access control</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='container top-features-inner-con'>
+                            <div className='row'>
+                                <div className='col-md-3 top-features-left-div'>
+                                    <div className='top-features-inner-span-div'>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                            <path d="M16.8002 8.40039L9.64068 15.6004L7.2002 13.1461" stroke="#51E49E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                        <span className='top-features-inner-span mt-4'>Self-service portal</span><br />
+                                    </div>
+                                    <div className='top-features-inner-span-div'>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                            <path d="M16.8002 8.40039L9.64068 15.6004L7.2002 13.1461" stroke="#51E49E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                        <span className='top-features-inner-span mt-4'>Notifications</span><br />
+                                    </div>
+                                    <div className='top-features-inner-span-div'>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                            <path d="M16.8002 8.40039L9.64068 15.6004L7.2002 13.1461" stroke="#51E49E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                        <span className='top-features-inner-span mt-4'>Notifications</span><br />
+                                    </div>
+                                    <div className='top-features-inner-span-div'>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                            <path d="M16.8002 8.40039L9.64068 15.6004L7.2002 13.1461" stroke="#51E49E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                        <span className='top-features-inner-span mt-4'>Notifications</span>
+                                    </div>
+
+                                </div>
+                                <div className='col-md-6 top-features-img-div'><img src={topfeaturesimg} className="img-fluid" alt="Responsive image" /></div>
+                                <div className='col-md-3  top-features-right-div'>
+                                    <div className='top-features-inner-span-div'>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                            <path d="M16.8002 8.40039L9.64068 15.6004L7.2002 13.1461" stroke="#51E49E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                        <span className='top-features-inner-span mt-4'>Self-service portal</span><br />
+                                    </div>
+                                    <div className='top-features-inner-span-div'>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                            <path d="M16.8002 8.40039L9.64068 15.6004L7.2002 13.1461" stroke="#51E49E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                        <span className='top-features-inner-span mt-4'>Notifications</span><br />
+                                    </div>
+                                    <div className='top-features-inner-span-div'>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                            <path d="M16.8002 8.40039L9.64068 15.6004L7.2002 13.1461" stroke="#51E49E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                        <span className='top-features-inner-span mt-4'>Notifications</span><br />
+                                    </div>
+                                    <div className='top-features-inner-span-div'>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                            <path d="M16.8002 8.40039L9.64068 15.6004L7.2002 13.1461" stroke="#51E49E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                        <span className='top-features-inner-span mt-4'>Notifications</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section className='frequently-ask-ques-section'>
+                <div className='container top-features-acc-container'>
+                <div className='row justify-content-center'>
+                        <div className='col-12'>
+                            <span className='Top-Integrations-header'>Frequently Asked Questions</span>
+                            <div className="accordion accordion-flush" id="accordionFlushExample">
+                            <div className="accordion-item">
+                                <h2 className="accordion-header">
+                                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                        Is there a way to streamline user provisioning for better efficiency and productivity?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                    <div className="accordion-body">Absolutely! Our AD Management Software optimizes user provisioning, making it efficient and hassle-free for your organization</div>
+                                </div>
+                            </div>
+                            <div className="accordion-item">
+                                <h2 className="accordion-header">
+                                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                        Is there a way to streamline user provisioning for better efficiency and productivity?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseTwo" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                    <div className="accordion-body">Absolutely! Our AD Management Software optimizes user provisioning, making it efficient and hassle-free for your organization</div>
+                                </div>
+                            </div>
+                            <div className="accordion-item">
+                                <h2 className="accordion-header">
+                                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                        Is there a way to streamline user provisioning for better efficiency and productivity?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseThree" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                    <div className="accordion-body">Absolutely! Our AD Management Software optimizes user provisioning, making it efficient and hassle-free for your organization</div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    </div>
+                </div>
+                <div className='container-fluid frequently-ask-ques-back-block'>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="176" height="176" viewBox="0 0 176 176" fill="none">
+                        <path d="M128.077 35.6585L134.406 41.2605L139.965 47.6259L144.666 54.6499L148.429 62.2173L151.194 70.2039L152.915 78.4784L153.563 86.9051L153.129 95.3455L151.619 103.661L149.058 111.715L145.488 119.376L140.968 126.517L135.571 133.022L129.388 138.783L122.518 143.706L115.075 147.71L107.181 150.729L98.966 152.714L90.5643 153.633L82.1144 153.469L73.7546 152.226L65.6225 149.925L57.8513 146.602L50.569 142.313L43.8949 137.128L37.9386 131.132L32.7979 124.423L28.5574 117.113L25.2865 109.32L23.039 101.173L21.8519 92.8047L21.7445 84.3537L22.7187 75.9584L24.7584 67.7567L27.8303 59.8831L31.8837 52.467L36.8523 45.6301L42.6543 39.4847L49.1945 34.1317L56.3656 29.659L64.0498 26.14L72.1208 23.6326L80.4463 22.1778L88.8894 21.7996L97.3116 22.5042L105.575 24.2801L113.543 27.0979L121.085 30.9116L128.077 35.6585Z" stroke="url(#paint0_linear_247_12013)" stroke-width="43" />
+                        <defs>
+                            <linearGradient id="paint0_linear_247_12013" x1="64.4169" y1="76.202" x2="149.279" y2="149.82" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#BDEDFF" />
+                                <stop offset="1" stop-color="#D28DEA" />
+                            </linearGradient>
+                        </defs>
+                    </svg> </div>
+            </section>
+            {/* <section className='home-cards-container'>
                 <div className='container'>
                     <div className='row justify-content-center'>
                         <div className='col-12'>
@@ -22,7 +173,7 @@ function Home() {
                                             <path fill-rule="evenodd" clip-rule="evenodd" d="M27.3009 24.9487C27.0128 24.9487 26.7462 24.7574 26.6569 24.4567C26.2103 22.9006 26.3497 21.2335 27.0531 19.7564C27.2116 19.415 27.6081 19.2749 27.9452 19.4355C28.2823 19.5958 28.4206 19.9974 28.2624 20.3391C27.7073 21.514 27.5978 22.8393 27.9452 24.0846C28.0445 24.4466 27.8457 24.8172 27.4897 24.918C27.4307 24.9386 27.3602 24.9487 27.3009 24.9487Z" fill="url(#paint1_linear_11_4267)" />
                                             <path fill-rule="evenodd" clip-rule="evenodd" d="M20.8176 24.9487C20.7586 24.9487 20.6981 24.9386 20.6291 24.918C20.2717 24.8172 20.0741 24.4362 20.1736 24.0846C20.5307 22.8497 20.4112 21.514 19.8565 20.3391C19.6979 19.9974 19.8365 19.5958 20.1736 19.4355C20.5008 19.2749 20.9069 19.415 21.0655 19.7564C21.76 21.2323 21.8986 22.8994 21.4619 24.4567C21.3727 24.7574 21.1045 24.9487 20.8176 24.9487Z" fill="url(#paint2_linear_11_4267)" />
                                             <path fill-rule="evenodd" clip-rule="evenodd" d="M22.8802 5.94737C23.0488 5.94737 23.2073 6.00745 23.3269 6.11809C24.7347 7.41429 29.3143 10.0052 31.3374 11.1191C31.3476 10.5367 31.4166 9.96446 31.545 9.41124C31.7036 8.73845 31.6733 7.96484 31.4657 7.11091C31.0596 5.48605 30.0279 4.05988 28.5508 3.09531C26.6082 1.83986 24.8028 1.39758 23.1874 1.79019C20.9767 2.333 19.8455 4.24101 19.837 4.26005C19.7374 4.43077 19.5789 4.54171 19.3903 4.58127C18.2794 4.80167 17.4666 5.41467 16.9908 6.41909C16.6537 7.13144 16.5947 7.7953 16.5947 7.87561V10.4067C17.9535 8.93089 19.2908 7.90624 20.2634 7.26379C20.9767 6.79237 21.5819 6.46995 21.9681 6.28019C22.6714 5.94737 22.781 5.94737 22.8802 5.94737ZM15.9201 12.9379C15.8511 12.9379 15.7718 12.9275 15.7025 12.8968C15.4347 12.8064 15.2471 12.5453 15.2471 12.2547V7.8655C15.2471 7.85538 15.2471 7.84497 15.2471 7.83486C15.2961 6.54907 16.119 4.00902 18.8453 3.32582C19.292 2.68367 20.6208 1.02549 22.8702 0.483873C24.853 0.00203577 27.0044 0.504395 29.2653 1.96983C31.0305 3.11435 32.2697 4.8323 32.7555 6.78969C33.0133 7.8539 33.0435 8.83898 32.8447 9.72235C32.7164 10.2741 32.6559 10.8475 32.6662 11.4302V12.2535C32.6662 12.4941 32.5467 12.7148 32.339 12.8359C32.1402 12.9569 31.8924 12.9658 31.6848 12.8561C31.3967 12.7059 25.0518 9.28126 22.7519 7.4131C21.8007 7.85538 18.9851 9.34134 16.4361 12.6752C16.3166 12.8472 16.119 12.9379 15.9201 12.9379Z" fill="url(#paint3_linear_11_4267)" />
-                                            <mask id="mask0_11_4267" /* style="mask-type:luminance" */ maskUnits="userSpaceOnUse" x="8" y="23" width="31" height="22">
+                                            <mask id="mask0_11_4267" maskUnits="userSpaceOnUse" x="8" y="23" width="31" height="22">
                                                 <path d="M8.17578 23.4512H38.4907V44.9233H8.17578V23.4512Z" fill="white" />
                                             </mask>
                                             <g mask="url(#mask0_11_4267)">
@@ -30,13 +181,13 @@ function Home() {
                                             </g>
                                             <path fill-rule="evenodd" clip-rule="evenodd" d="M32.0788 44.8715H16.0188C15.6514 44.8715 15.3545 44.5708 15.3545 44.1988V33.1213C15.3545 31.5345 16.634 30.2383 18.2004 30.2383H29.9086C30.3841 30.2383 30.8407 30.3593 31.2372 30.58C31.5643 30.7609 31.6838 31.1725 31.5053 31.4937C31.3264 31.8251 30.92 31.9461 30.6032 31.7653C30.4043 31.6543 30.1565 31.5946 29.9086 31.5946H18.2004C17.3675 31.5946 16.683 32.2876 16.683 33.1314V43.5358H31.4057V42.8529C31.4057 42.4808 31.7026 42.1798 32.07 42.1798C32.4374 42.1798 32.7343 42.4808 32.7343 42.8529V44.219C32.7533 44.5694 32.4564 44.8715 32.0788 44.8715Z" fill="url(#paint5_linear_11_4267)" />
                                             <path fill-rule="evenodd" clip-rule="evenodd" d="M24.05 36.015C23.2169 36.015 22.5326 36.7083 22.5326 37.5521C22.5326 38.3957 23.2169 39.089 24.05 39.089C24.8828 39.089 25.5673 38.3957 25.5673 37.5521C25.5659 36.7071 24.8916 36.015 24.05 36.015ZM24.05 40.4337C22.4836 40.4337 21.2041 39.1375 21.2041 37.551C21.2041 35.9642 22.4836 34.668 24.05 34.668C25.6164 34.668 26.8958 35.9642 26.8958 37.551C26.9047 39.1375 25.6252 40.4337 24.05 40.4337Z" fill="url(#paint6_linear_11_4267)" />
-                                            <mask id="mask1_11_4267" /* style="mask-type:luminance" */ maskUnits="userSpaceOnUse" x="28" y="28" width="17" height="17">
+                                            <mask id="mask1_11_4267"  maskUnits="userSpaceOnUse" x="28" y="28" width="17" height="17">
                                                 <path d="M28.1162 28.0195H44.8191V44.9231H28.1162V28.0195Z" fill="white" />
                                             </mask>
                                             <g mask="url(#mask1_11_4267)">
                                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M36.4917 29.4068C32.6356 29.4068 29.5029 32.5803 29.5029 36.4865C29.5029 40.3926 32.6356 43.5659 36.4917 43.5659C40.3481 43.5659 43.4809 40.3926 43.4809 36.4865C43.4809 32.5803 40.3481 29.4068 36.4917 29.4068ZM36.4917 44.9219C31.9021 44.9219 28.1641 41.1356 28.1641 36.4865C28.1641 31.8374 31.9021 28.0508 36.4917 28.0508C41.0816 28.0508 44.8194 31.8374 44.8194 36.4865C44.8194 41.1356 41.0816 44.9219 36.4917 44.9219Z" fill="url(#paint7_linear_11_4267)" />
                                             </g>
-                                            <mask id="mask2_11_4267" /* style="mask-type:luminance" */ maskUnits="userSpaceOnUse" x="30" y="30" width="13" height="13">
+                                            <mask id="mask2_11_4267" maskUnits="userSpaceOnUse" x="30" y="30" width="13" height="13">
                                                 <path d="M30.7969 30.4844H42.2719V42.0973H30.7969V30.4844Z" fill="white" />
                                             </mask>
                                             <g mask="url(#mask2_11_4267)">
@@ -93,9 +244,6 @@ function Home() {
                                         <circle cx="44" cy="44" r="44" fill="#25C4DC" />
                                     </svg>
                                     <div className="go-corner" href="#">
-                                        {/* <div class="go-arrow">
-                                            →
-                                        </div> */}
                                     </div>
                                 </div>
                             </div>
@@ -107,7 +255,7 @@ function Home() {
                                             <path fill-rule="evenodd" clip-rule="evenodd" d="M27.3009 24.9487C27.0128 24.9487 26.7462 24.7574 26.6569 24.4567C26.2103 22.9006 26.3497 21.2335 27.0531 19.7564C27.2116 19.415 27.6081 19.2749 27.9452 19.4355C28.2823 19.5958 28.4206 19.9974 28.2624 20.3391C27.7073 21.514 27.5978 22.8393 27.9452 24.0846C28.0445 24.4466 27.8457 24.8172 27.4897 24.918C27.4307 24.9386 27.3602 24.9487 27.3009 24.9487Z" fill="url(#paint1_linear_11_4267)" />
                                             <path fill-rule="evenodd" clip-rule="evenodd" d="M20.8176 24.9487C20.7586 24.9487 20.6981 24.9386 20.6291 24.918C20.2717 24.8172 20.0741 24.4362 20.1736 24.0846C20.5307 22.8497 20.4112 21.514 19.8565 20.3391C19.6979 19.9974 19.8365 19.5958 20.1736 19.4355C20.5008 19.2749 20.9069 19.415 21.0655 19.7564C21.76 21.2323 21.8986 22.8994 21.4619 24.4567C21.3727 24.7574 21.1045 24.9487 20.8176 24.9487Z" fill="url(#paint2_linear_11_4267)" />
                                             <path fill-rule="evenodd" clip-rule="evenodd" d="M22.8802 5.94737C23.0488 5.94737 23.2073 6.00745 23.3269 6.11809C24.7347 7.41429 29.3143 10.0052 31.3374 11.1191C31.3476 10.5367 31.4166 9.96446 31.545 9.41124C31.7036 8.73845 31.6733 7.96484 31.4657 7.11091C31.0596 5.48605 30.0279 4.05988 28.5508 3.09531C26.6082 1.83986 24.8028 1.39758 23.1874 1.79019C20.9767 2.333 19.8455 4.24101 19.837 4.26005C19.7374 4.43077 19.5789 4.54171 19.3903 4.58127C18.2794 4.80167 17.4666 5.41467 16.9908 6.41909C16.6537 7.13144 16.5947 7.7953 16.5947 7.87561V10.4067C17.9535 8.93089 19.2908 7.90624 20.2634 7.26379C20.9767 6.79237 21.5819 6.46995 21.9681 6.28019C22.6714 5.94737 22.781 5.94737 22.8802 5.94737ZM15.9201 12.9379C15.8511 12.9379 15.7718 12.9275 15.7025 12.8968C15.4347 12.8064 15.2471 12.5453 15.2471 12.2547V7.8655C15.2471 7.85538 15.2471 7.84497 15.2471 7.83486C15.2961 6.54907 16.119 4.00902 18.8453 3.32582C19.292 2.68367 20.6208 1.02549 22.8702 0.483873C24.853 0.00203577 27.0044 0.504395 29.2653 1.96983C31.0305 3.11435 32.2697 4.8323 32.7555 6.78969C33.0133 7.8539 33.0435 8.83898 32.8447 9.72235C32.7164 10.2741 32.6559 10.8475 32.6662 11.4302V12.2535C32.6662 12.4941 32.5467 12.7148 32.339 12.8359C32.1402 12.9569 31.8924 12.9658 31.6848 12.8561C31.3967 12.7059 25.0518 9.28126 22.7519 7.4131C21.8007 7.85538 18.9851 9.34134 16.4361 12.6752C16.3166 12.8472 16.119 12.9379 15.9201 12.9379Z" fill="url(#paint3_linear_11_4267)" />
-                                            <mask id="mask0_11_4267" /* style="mask-type:luminance" */ maskUnits="userSpaceOnUse" x="8" y="23" width="31" height="22">
+                                            <mask id="mask0_11_4267" maskUnits="userSpaceOnUse" x="8" y="23" width="31" height="22">
                                                 <path d="M8.17578 23.4512H38.4907V44.9233H8.17578V23.4512Z" fill="white" />
                                             </mask>
                                             <g mask="url(#mask0_11_4267)">
@@ -115,13 +263,13 @@ function Home() {
                                             </g>
                                             <path fill-rule="evenodd" clip-rule="evenodd" d="M32.0788 44.8715H16.0188C15.6514 44.8715 15.3545 44.5708 15.3545 44.1988V33.1213C15.3545 31.5345 16.634 30.2383 18.2004 30.2383H29.9086C30.3841 30.2383 30.8407 30.3593 31.2372 30.58C31.5643 30.7609 31.6838 31.1725 31.5053 31.4937C31.3264 31.8251 30.92 31.9461 30.6032 31.7653C30.4043 31.6543 30.1565 31.5946 29.9086 31.5946H18.2004C17.3675 31.5946 16.683 32.2876 16.683 33.1314V43.5358H31.4057V42.8529C31.4057 42.4808 31.7026 42.1798 32.07 42.1798C32.4374 42.1798 32.7343 42.4808 32.7343 42.8529V44.219C32.7533 44.5694 32.4564 44.8715 32.0788 44.8715Z" fill="url(#paint5_linear_11_4267)" />
                                             <path fill-rule="evenodd" clip-rule="evenodd" d="M24.05 36.015C23.2169 36.015 22.5326 36.7083 22.5326 37.5521C22.5326 38.3957 23.2169 39.089 24.05 39.089C24.8828 39.089 25.5673 38.3957 25.5673 37.5521C25.5659 36.7071 24.8916 36.015 24.05 36.015ZM24.05 40.4337C22.4836 40.4337 21.2041 39.1375 21.2041 37.551C21.2041 35.9642 22.4836 34.668 24.05 34.668C25.6164 34.668 26.8958 35.9642 26.8958 37.551C26.9047 39.1375 25.6252 40.4337 24.05 40.4337Z" fill="url(#paint6_linear_11_4267)" />
-                                            <mask id="mask1_11_4267" /* style="mask-type:luminance" */ maskUnits="userSpaceOnUse" x="28" y="28" width="17" height="17">
+                                            <mask id="mask1_11_4267" maskUnits="userSpaceOnUse" x="28" y="28" width="17" height="17">
                                                 <path d="M28.1162 28.0195H44.8191V44.9231H28.1162V28.0195Z" fill="white" />
                                             </mask>
                                             <g mask="url(#mask1_11_4267)">
                                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M36.4917 29.4068C32.6356 29.4068 29.5029 32.5803 29.5029 36.4865C29.5029 40.3926 32.6356 43.5659 36.4917 43.5659C40.3481 43.5659 43.4809 40.3926 43.4809 36.4865C43.4809 32.5803 40.3481 29.4068 36.4917 29.4068ZM36.4917 44.9219C31.9021 44.9219 28.1641 41.1356 28.1641 36.4865C28.1641 31.8374 31.9021 28.0508 36.4917 28.0508C41.0816 28.0508 44.8194 31.8374 44.8194 36.4865C44.8194 41.1356 41.0816 44.9219 36.4917 44.9219Z" fill="url(#paint7_linear_11_4267)" />
                                             </g>
-                                            <mask id="mask2_11_4267" /* style="mask-type:luminance" */ maskUnits="userSpaceOnUse" x="30" y="30" width="13" height="13">
+                                            <mask id="mask2_11_4267" maskUnits="userSpaceOnUse" x="30" y="30" width="13" height="13">
                                                 <path d="M30.7969 30.4844H42.2719V42.0973H30.7969V30.4844Z" fill="white" />
                                             </mask>
                                             <g mask="url(#mask2_11_4267)">
@@ -187,7 +335,7 @@ function Home() {
                                             <path fill-rule="evenodd" clip-rule="evenodd" d="M27.3009 24.9487C27.0128 24.9487 26.7462 24.7574 26.6569 24.4567C26.2103 22.9006 26.3497 21.2335 27.0531 19.7564C27.2116 19.415 27.6081 19.2749 27.9452 19.4355C28.2823 19.5958 28.4206 19.9974 28.2624 20.3391C27.7073 21.514 27.5978 22.8393 27.9452 24.0846C28.0445 24.4466 27.8457 24.8172 27.4897 24.918C27.4307 24.9386 27.3602 24.9487 27.3009 24.9487Z" fill="url(#paint1_linear_11_4267)" />
                                             <path fill-rule="evenodd" clip-rule="evenodd" d="M20.8176 24.9487C20.7586 24.9487 20.6981 24.9386 20.6291 24.918C20.2717 24.8172 20.0741 24.4362 20.1736 24.0846C20.5307 22.8497 20.4112 21.514 19.8565 20.3391C19.6979 19.9974 19.8365 19.5958 20.1736 19.4355C20.5008 19.2749 20.9069 19.415 21.0655 19.7564C21.76 21.2323 21.8986 22.8994 21.4619 24.4567C21.3727 24.7574 21.1045 24.9487 20.8176 24.9487Z" fill="url(#paint2_linear_11_4267)" />
                                             <path fill-rule="evenodd" clip-rule="evenodd" d="M22.8802 5.94737C23.0488 5.94737 23.2073 6.00745 23.3269 6.11809C24.7347 7.41429 29.3143 10.0052 31.3374 11.1191C31.3476 10.5367 31.4166 9.96446 31.545 9.41124C31.7036 8.73845 31.6733 7.96484 31.4657 7.11091C31.0596 5.48605 30.0279 4.05988 28.5508 3.09531C26.6082 1.83986 24.8028 1.39758 23.1874 1.79019C20.9767 2.333 19.8455 4.24101 19.837 4.26005C19.7374 4.43077 19.5789 4.54171 19.3903 4.58127C18.2794 4.80167 17.4666 5.41467 16.9908 6.41909C16.6537 7.13144 16.5947 7.7953 16.5947 7.87561V10.4067C17.9535 8.93089 19.2908 7.90624 20.2634 7.26379C20.9767 6.79237 21.5819 6.46995 21.9681 6.28019C22.6714 5.94737 22.781 5.94737 22.8802 5.94737ZM15.9201 12.9379C15.8511 12.9379 15.7718 12.9275 15.7025 12.8968C15.4347 12.8064 15.2471 12.5453 15.2471 12.2547V7.8655C15.2471 7.85538 15.2471 7.84497 15.2471 7.83486C15.2961 6.54907 16.119 4.00902 18.8453 3.32582C19.292 2.68367 20.6208 1.02549 22.8702 0.483873C24.853 0.00203577 27.0044 0.504395 29.2653 1.96983C31.0305 3.11435 32.2697 4.8323 32.7555 6.78969C33.0133 7.8539 33.0435 8.83898 32.8447 9.72235C32.7164 10.2741 32.6559 10.8475 32.6662 11.4302V12.2535C32.6662 12.4941 32.5467 12.7148 32.339 12.8359C32.1402 12.9569 31.8924 12.9658 31.6848 12.8561C31.3967 12.7059 25.0518 9.28126 22.7519 7.4131C21.8007 7.85538 18.9851 9.34134 16.4361 12.6752C16.3166 12.8472 16.119 12.9379 15.9201 12.9379Z" fill="url(#paint3_linear_11_4267)" />
-                                            <mask id="mask0_11_4267" /* style="mask-type:luminance" */ maskUnits="userSpaceOnUse" x="8" y="23" width="31" height="22">
+                                            <mask id="mask0_11_4267" maskUnits="userSpaceOnUse" x="8" y="23" width="31" height="22">
                                                 <path d="M8.17578 23.4512H38.4907V44.9233H8.17578V23.4512Z" fill="white" />
                                             </mask>
                                             <g mask="url(#mask0_11_4267)">
@@ -195,13 +343,13 @@ function Home() {
                                             </g>
                                             <path fill-rule="evenodd" clip-rule="evenodd" d="M32.0788 44.8715H16.0188C15.6514 44.8715 15.3545 44.5708 15.3545 44.1988V33.1213C15.3545 31.5345 16.634 30.2383 18.2004 30.2383H29.9086C30.3841 30.2383 30.8407 30.3593 31.2372 30.58C31.5643 30.7609 31.6838 31.1725 31.5053 31.4937C31.3264 31.8251 30.92 31.9461 30.6032 31.7653C30.4043 31.6543 30.1565 31.5946 29.9086 31.5946H18.2004C17.3675 31.5946 16.683 32.2876 16.683 33.1314V43.5358H31.4057V42.8529C31.4057 42.4808 31.7026 42.1798 32.07 42.1798C32.4374 42.1798 32.7343 42.4808 32.7343 42.8529V44.219C32.7533 44.5694 32.4564 44.8715 32.0788 44.8715Z" fill="url(#paint5_linear_11_4267)" />
                                             <path fill-rule="evenodd" clip-rule="evenodd" d="M24.05 36.015C23.2169 36.015 22.5326 36.7083 22.5326 37.5521C22.5326 38.3957 23.2169 39.089 24.05 39.089C24.8828 39.089 25.5673 38.3957 25.5673 37.5521C25.5659 36.7071 24.8916 36.015 24.05 36.015ZM24.05 40.4337C22.4836 40.4337 21.2041 39.1375 21.2041 37.551C21.2041 35.9642 22.4836 34.668 24.05 34.668C25.6164 34.668 26.8958 35.9642 26.8958 37.551C26.9047 39.1375 25.6252 40.4337 24.05 40.4337Z" fill="url(#paint6_linear_11_4267)" />
-                                            <mask id="mask1_11_4267" /* style="mask-type:luminance" */ maskUnits="userSpaceOnUse" x="28" y="28" width="17" height="17">
+                                            <mask id="mask1_11_4267" maskUnits="userSpaceOnUse" x="28" y="28" width="17" height="17">
                                                 <path d="M28.1162 28.0195H44.8191V44.9231H28.1162V28.0195Z" fill="white" />
                                             </mask>
                                             <g mask="url(#mask1_11_4267)">
                                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M36.4917 29.4068C32.6356 29.4068 29.5029 32.5803 29.5029 36.4865C29.5029 40.3926 32.6356 43.5659 36.4917 43.5659C40.3481 43.5659 43.4809 40.3926 43.4809 36.4865C43.4809 32.5803 40.3481 29.4068 36.4917 29.4068ZM36.4917 44.9219C31.9021 44.9219 28.1641 41.1356 28.1641 36.4865C28.1641 31.8374 31.9021 28.0508 36.4917 28.0508C41.0816 28.0508 44.8194 31.8374 44.8194 36.4865C44.8194 41.1356 41.0816 44.9219 36.4917 44.9219Z" fill="url(#paint7_linear_11_4267)" />
                                             </g>
-                                            <mask id="mask2_11_4267" /* style="mask-type:luminance" */ maskUnits="userSpaceOnUse" x="30" y="30" width="13" height="13">
+                                            <mask id="mask2_11_4267"  maskUnits="userSpaceOnUse" x="30" y="30" width="13" height="13">
                                                 <path d="M30.7969 30.4844H42.2719V42.0973H30.7969V30.4844Z" fill="white" />
                                             </mask>
                                             <g mask="url(#mask2_11_4267)">
@@ -267,7 +415,7 @@ function Home() {
                                             <path fill-rule="evenodd" clip-rule="evenodd" d="M27.3009 24.9487C27.0128 24.9487 26.7462 24.7574 26.6569 24.4567C26.2103 22.9006 26.3497 21.2335 27.0531 19.7564C27.2116 19.415 27.6081 19.2749 27.9452 19.4355C28.2823 19.5958 28.4206 19.9974 28.2624 20.3391C27.7073 21.514 27.5978 22.8393 27.9452 24.0846C28.0445 24.4466 27.8457 24.8172 27.4897 24.918C27.4307 24.9386 27.3602 24.9487 27.3009 24.9487Z" fill="url(#paint1_linear_11_4267)" />
                                             <path fill-rule="evenodd" clip-rule="evenodd" d="M20.8176 24.9487C20.7586 24.9487 20.6981 24.9386 20.6291 24.918C20.2717 24.8172 20.0741 24.4362 20.1736 24.0846C20.5307 22.8497 20.4112 21.514 19.8565 20.3391C19.6979 19.9974 19.8365 19.5958 20.1736 19.4355C20.5008 19.2749 20.9069 19.415 21.0655 19.7564C21.76 21.2323 21.8986 22.8994 21.4619 24.4567C21.3727 24.7574 21.1045 24.9487 20.8176 24.9487Z" fill="url(#paint2_linear_11_4267)" />
                                             <path fill-rule="evenodd" clip-rule="evenodd" d="M22.8802 5.94737C23.0488 5.94737 23.2073 6.00745 23.3269 6.11809C24.7347 7.41429 29.3143 10.0052 31.3374 11.1191C31.3476 10.5367 31.4166 9.96446 31.545 9.41124C31.7036 8.73845 31.6733 7.96484 31.4657 7.11091C31.0596 5.48605 30.0279 4.05988 28.5508 3.09531C26.6082 1.83986 24.8028 1.39758 23.1874 1.79019C20.9767 2.333 19.8455 4.24101 19.837 4.26005C19.7374 4.43077 19.5789 4.54171 19.3903 4.58127C18.2794 4.80167 17.4666 5.41467 16.9908 6.41909C16.6537 7.13144 16.5947 7.7953 16.5947 7.87561V10.4067C17.9535 8.93089 19.2908 7.90624 20.2634 7.26379C20.9767 6.79237 21.5819 6.46995 21.9681 6.28019C22.6714 5.94737 22.781 5.94737 22.8802 5.94737ZM15.9201 12.9379C15.8511 12.9379 15.7718 12.9275 15.7025 12.8968C15.4347 12.8064 15.2471 12.5453 15.2471 12.2547V7.8655C15.2471 7.85538 15.2471 7.84497 15.2471 7.83486C15.2961 6.54907 16.119 4.00902 18.8453 3.32582C19.292 2.68367 20.6208 1.02549 22.8702 0.483873C24.853 0.00203577 27.0044 0.504395 29.2653 1.96983C31.0305 3.11435 32.2697 4.8323 32.7555 6.78969C33.0133 7.8539 33.0435 8.83898 32.8447 9.72235C32.7164 10.2741 32.6559 10.8475 32.6662 11.4302V12.2535C32.6662 12.4941 32.5467 12.7148 32.339 12.8359C32.1402 12.9569 31.8924 12.9658 31.6848 12.8561C31.3967 12.7059 25.0518 9.28126 22.7519 7.4131C21.8007 7.85538 18.9851 9.34134 16.4361 12.6752C16.3166 12.8472 16.119 12.9379 15.9201 12.9379Z" fill="url(#paint3_linear_11_4267)" />
-                                            <mask id="mask0_11_4267" /* style="mask-type:luminance" */ maskUnits="userSpaceOnUse" x="8" y="23" width="31" height="22">
+                                            <mask id="mask0_11_4267"  maskUnits="userSpaceOnUse" x="8" y="23" width="31" height="22">
                                                 <path d="M8.17578 23.4512H38.4907V44.9233H8.17578V23.4512Z" fill="white" />
                                             </mask>
                                             <g mask="url(#mask0_11_4267)">
@@ -275,13 +423,13 @@ function Home() {
                                             </g>
                                             <path fill-rule="evenodd" clip-rule="evenodd" d="M32.0788 44.8715H16.0188C15.6514 44.8715 15.3545 44.5708 15.3545 44.1988V33.1213C15.3545 31.5345 16.634 30.2383 18.2004 30.2383H29.9086C30.3841 30.2383 30.8407 30.3593 31.2372 30.58C31.5643 30.7609 31.6838 31.1725 31.5053 31.4937C31.3264 31.8251 30.92 31.9461 30.6032 31.7653C30.4043 31.6543 30.1565 31.5946 29.9086 31.5946H18.2004C17.3675 31.5946 16.683 32.2876 16.683 33.1314V43.5358H31.4057V42.8529C31.4057 42.4808 31.7026 42.1798 32.07 42.1798C32.4374 42.1798 32.7343 42.4808 32.7343 42.8529V44.219C32.7533 44.5694 32.4564 44.8715 32.0788 44.8715Z" fill="url(#paint5_linear_11_4267)" />
                                             <path fill-rule="evenodd" clip-rule="evenodd" d="M24.05 36.015C23.2169 36.015 22.5326 36.7083 22.5326 37.5521C22.5326 38.3957 23.2169 39.089 24.05 39.089C24.8828 39.089 25.5673 38.3957 25.5673 37.5521C25.5659 36.7071 24.8916 36.015 24.05 36.015ZM24.05 40.4337C22.4836 40.4337 21.2041 39.1375 21.2041 37.551C21.2041 35.9642 22.4836 34.668 24.05 34.668C25.6164 34.668 26.8958 35.9642 26.8958 37.551C26.9047 39.1375 25.6252 40.4337 24.05 40.4337Z" fill="url(#paint6_linear_11_4267)" />
-                                            <mask id="mask1_11_4267" /* style="mask-type:luminance" */ maskUnits="userSpaceOnUse" x="28" y="28" width="17" height="17">
+                                            <mask id="mask1_11_4267" maskUnits="userSpaceOnUse" x="28" y="28" width="17" height="17">
                                                 <path d="M28.1162 28.0195H44.8191V44.9231H28.1162V28.0195Z" fill="white" />
                                             </mask>
                                             <g mask="url(#mask1_11_4267)">
                                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M36.4917 29.4068C32.6356 29.4068 29.5029 32.5803 29.5029 36.4865C29.5029 40.3926 32.6356 43.5659 36.4917 43.5659C40.3481 43.5659 43.4809 40.3926 43.4809 36.4865C43.4809 32.5803 40.3481 29.4068 36.4917 29.4068ZM36.4917 44.9219C31.9021 44.9219 28.1641 41.1356 28.1641 36.4865C28.1641 31.8374 31.9021 28.0508 36.4917 28.0508C41.0816 28.0508 44.8194 31.8374 44.8194 36.4865C44.8194 41.1356 41.0816 44.9219 36.4917 44.9219Z" fill="url(#paint7_linear_11_4267)" />
                                             </g>
-                                            <mask id="mask2_11_4267" /* style="mask-type:luminance" */ maskUnits="userSpaceOnUse" x="30" y="30" width="13" height="13">
+                                            <mask id="mask2_11_4267" maskUnits="userSpaceOnUse" x="30" y="30" width="13" height="13">
                                                 <path d="M30.7969 30.4844H42.2719V42.0973H30.7969V30.4844Z" fill="white" />
                                             </mask>
                                             <g mask="url(#mask2_11_4267)">
@@ -347,7 +495,7 @@ function Home() {
                                             <path fill-rule="evenodd" clip-rule="evenodd" d="M27.3009 24.9487C27.0128 24.9487 26.7462 24.7574 26.6569 24.4567C26.2103 22.9006 26.3497 21.2335 27.0531 19.7564C27.2116 19.415 27.6081 19.2749 27.9452 19.4355C28.2823 19.5958 28.4206 19.9974 28.2624 20.3391C27.7073 21.514 27.5978 22.8393 27.9452 24.0846C28.0445 24.4466 27.8457 24.8172 27.4897 24.918C27.4307 24.9386 27.3602 24.9487 27.3009 24.9487Z" fill="url(#paint1_linear_11_4267)" />
                                             <path fill-rule="evenodd" clip-rule="evenodd" d="M20.8176 24.9487C20.7586 24.9487 20.6981 24.9386 20.6291 24.918C20.2717 24.8172 20.0741 24.4362 20.1736 24.0846C20.5307 22.8497 20.4112 21.514 19.8565 20.3391C19.6979 19.9974 19.8365 19.5958 20.1736 19.4355C20.5008 19.2749 20.9069 19.415 21.0655 19.7564C21.76 21.2323 21.8986 22.8994 21.4619 24.4567C21.3727 24.7574 21.1045 24.9487 20.8176 24.9487Z" fill="url(#paint2_linear_11_4267)" />
                                             <path fill-rule="evenodd" clip-rule="evenodd" d="M22.8802 5.94737C23.0488 5.94737 23.2073 6.00745 23.3269 6.11809C24.7347 7.41429 29.3143 10.0052 31.3374 11.1191C31.3476 10.5367 31.4166 9.96446 31.545 9.41124C31.7036 8.73845 31.6733 7.96484 31.4657 7.11091C31.0596 5.48605 30.0279 4.05988 28.5508 3.09531C26.6082 1.83986 24.8028 1.39758 23.1874 1.79019C20.9767 2.333 19.8455 4.24101 19.837 4.26005C19.7374 4.43077 19.5789 4.54171 19.3903 4.58127C18.2794 4.80167 17.4666 5.41467 16.9908 6.41909C16.6537 7.13144 16.5947 7.7953 16.5947 7.87561V10.4067C17.9535 8.93089 19.2908 7.90624 20.2634 7.26379C20.9767 6.79237 21.5819 6.46995 21.9681 6.28019C22.6714 5.94737 22.781 5.94737 22.8802 5.94737ZM15.9201 12.9379C15.8511 12.9379 15.7718 12.9275 15.7025 12.8968C15.4347 12.8064 15.2471 12.5453 15.2471 12.2547V7.8655C15.2471 7.85538 15.2471 7.84497 15.2471 7.83486C15.2961 6.54907 16.119 4.00902 18.8453 3.32582C19.292 2.68367 20.6208 1.02549 22.8702 0.483873C24.853 0.00203577 27.0044 0.504395 29.2653 1.96983C31.0305 3.11435 32.2697 4.8323 32.7555 6.78969C33.0133 7.8539 33.0435 8.83898 32.8447 9.72235C32.7164 10.2741 32.6559 10.8475 32.6662 11.4302V12.2535C32.6662 12.4941 32.5467 12.7148 32.339 12.8359C32.1402 12.9569 31.8924 12.9658 31.6848 12.8561C31.3967 12.7059 25.0518 9.28126 22.7519 7.4131C21.8007 7.85538 18.9851 9.34134 16.4361 12.6752C16.3166 12.8472 16.119 12.9379 15.9201 12.9379Z" fill="url(#paint3_linear_11_4267)" />
-                                            <mask id="mask0_11_4267" /* style="mask-type:luminance" */ maskUnits="userSpaceOnUse" x="8" y="23" width="31" height="22">
+                                            <mask id="mask0_11_4267"  maskUnits="userSpaceOnUse" x="8" y="23" width="31" height="22">
                                                 <path d="M8.17578 23.4512H38.4907V44.9233H8.17578V23.4512Z" fill="white" />
                                             </mask>
                                             <g mask="url(#mask0_11_4267)">
@@ -355,13 +503,13 @@ function Home() {
                                             </g>
                                             <path fill-rule="evenodd" clip-rule="evenodd" d="M32.0788 44.8715H16.0188C15.6514 44.8715 15.3545 44.5708 15.3545 44.1988V33.1213C15.3545 31.5345 16.634 30.2383 18.2004 30.2383H29.9086C30.3841 30.2383 30.8407 30.3593 31.2372 30.58C31.5643 30.7609 31.6838 31.1725 31.5053 31.4937C31.3264 31.8251 30.92 31.9461 30.6032 31.7653C30.4043 31.6543 30.1565 31.5946 29.9086 31.5946H18.2004C17.3675 31.5946 16.683 32.2876 16.683 33.1314V43.5358H31.4057V42.8529C31.4057 42.4808 31.7026 42.1798 32.07 42.1798C32.4374 42.1798 32.7343 42.4808 32.7343 42.8529V44.219C32.7533 44.5694 32.4564 44.8715 32.0788 44.8715Z" fill="url(#paint5_linear_11_4267)" />
                                             <path fill-rule="evenodd" clip-rule="evenodd" d="M24.05 36.015C23.2169 36.015 22.5326 36.7083 22.5326 37.5521C22.5326 38.3957 23.2169 39.089 24.05 39.089C24.8828 39.089 25.5673 38.3957 25.5673 37.5521C25.5659 36.7071 24.8916 36.015 24.05 36.015ZM24.05 40.4337C22.4836 40.4337 21.2041 39.1375 21.2041 37.551C21.2041 35.9642 22.4836 34.668 24.05 34.668C25.6164 34.668 26.8958 35.9642 26.8958 37.551C26.9047 39.1375 25.6252 40.4337 24.05 40.4337Z" fill="url(#paint6_linear_11_4267)" />
-                                            <mask id="mask1_11_4267" /* style="mask-type:luminance" */ maskUnits="userSpaceOnUse" x="28" y="28" width="17" height="17">
+                                            <mask id="mask1_11_4267"  maskUnits="userSpaceOnUse" x="28" y="28" width="17" height="17">
                                                 <path d="M28.1162 28.0195H44.8191V44.9231H28.1162V28.0195Z" fill="white" />
                                             </mask>
                                             <g mask="url(#mask1_11_4267)">
                                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M36.4917 29.4068C32.6356 29.4068 29.5029 32.5803 29.5029 36.4865C29.5029 40.3926 32.6356 43.5659 36.4917 43.5659C40.3481 43.5659 43.4809 40.3926 43.4809 36.4865C43.4809 32.5803 40.3481 29.4068 36.4917 29.4068ZM36.4917 44.9219C31.9021 44.9219 28.1641 41.1356 28.1641 36.4865C28.1641 31.8374 31.9021 28.0508 36.4917 28.0508C41.0816 28.0508 44.8194 31.8374 44.8194 36.4865C44.8194 41.1356 41.0816 44.9219 36.4917 44.9219Z" fill="url(#paint7_linear_11_4267)" />
                                             </g>
-                                            <mask id="mask2_11_4267" /* style="mask-type:luminance" */ maskUnits="userSpaceOnUse" x="30" y="30" width="13" height="13">
+                                            <mask id="mask2_11_4267" maskUnits="userSpaceOnUse" x="30" y="30" width="13" height="13">
                                                 <path d="M30.7969 30.4844H42.2719V42.0973H30.7969V30.4844Z" fill="white" />
                                             </mask>
                                             <g mask="url(#mask2_11_4267)">
@@ -427,7 +575,7 @@ function Home() {
                                             <path fill-rule="evenodd" clip-rule="evenodd" d="M27.3009 24.9487C27.0128 24.9487 26.7462 24.7574 26.6569 24.4567C26.2103 22.9006 26.3497 21.2335 27.0531 19.7564C27.2116 19.415 27.6081 19.2749 27.9452 19.4355C28.2823 19.5958 28.4206 19.9974 28.2624 20.3391C27.7073 21.514 27.5978 22.8393 27.9452 24.0846C28.0445 24.4466 27.8457 24.8172 27.4897 24.918C27.4307 24.9386 27.3602 24.9487 27.3009 24.9487Z" fill="url(#paint1_linear_11_4267)" />
                                             <path fill-rule="evenodd" clip-rule="evenodd" d="M20.8176 24.9487C20.7586 24.9487 20.6981 24.9386 20.6291 24.918C20.2717 24.8172 20.0741 24.4362 20.1736 24.0846C20.5307 22.8497 20.4112 21.514 19.8565 20.3391C19.6979 19.9974 19.8365 19.5958 20.1736 19.4355C20.5008 19.2749 20.9069 19.415 21.0655 19.7564C21.76 21.2323 21.8986 22.8994 21.4619 24.4567C21.3727 24.7574 21.1045 24.9487 20.8176 24.9487Z" fill="url(#paint2_linear_11_4267)" />
                                             <path fill-rule="evenodd" clip-rule="evenodd" d="M22.8802 5.94737C23.0488 5.94737 23.2073 6.00745 23.3269 6.11809C24.7347 7.41429 29.3143 10.0052 31.3374 11.1191C31.3476 10.5367 31.4166 9.96446 31.545 9.41124C31.7036 8.73845 31.6733 7.96484 31.4657 7.11091C31.0596 5.48605 30.0279 4.05988 28.5508 3.09531C26.6082 1.83986 24.8028 1.39758 23.1874 1.79019C20.9767 2.333 19.8455 4.24101 19.837 4.26005C19.7374 4.43077 19.5789 4.54171 19.3903 4.58127C18.2794 4.80167 17.4666 5.41467 16.9908 6.41909C16.6537 7.13144 16.5947 7.7953 16.5947 7.87561V10.4067C17.9535 8.93089 19.2908 7.90624 20.2634 7.26379C20.9767 6.79237 21.5819 6.46995 21.9681 6.28019C22.6714 5.94737 22.781 5.94737 22.8802 5.94737ZM15.9201 12.9379C15.8511 12.9379 15.7718 12.9275 15.7025 12.8968C15.4347 12.8064 15.2471 12.5453 15.2471 12.2547V7.8655C15.2471 7.85538 15.2471 7.84497 15.2471 7.83486C15.2961 6.54907 16.119 4.00902 18.8453 3.32582C19.292 2.68367 20.6208 1.02549 22.8702 0.483873C24.853 0.00203577 27.0044 0.504395 29.2653 1.96983C31.0305 3.11435 32.2697 4.8323 32.7555 6.78969C33.0133 7.8539 33.0435 8.83898 32.8447 9.72235C32.7164 10.2741 32.6559 10.8475 32.6662 11.4302V12.2535C32.6662 12.4941 32.5467 12.7148 32.339 12.8359C32.1402 12.9569 31.8924 12.9658 31.6848 12.8561C31.3967 12.7059 25.0518 9.28126 22.7519 7.4131C21.8007 7.85538 18.9851 9.34134 16.4361 12.6752C16.3166 12.8472 16.119 12.9379 15.9201 12.9379Z" fill="url(#paint3_linear_11_4267)" />
-                                            <mask id="mask0_11_4267" /* style="mask-type:luminance" */ maskUnits="userSpaceOnUse" x="8" y="23" width="31" height="22">
+                                            <mask id="mask0_11_4267"  maskUnits="userSpaceOnUse" x="8" y="23" width="31" height="22">
                                                 <path d="M8.17578 23.4512H38.4907V44.9233H8.17578V23.4512Z" fill="white" />
                                             </mask>
                                             <g mask="url(#mask0_11_4267)">
@@ -435,13 +583,13 @@ function Home() {
                                             </g>
                                             <path fill-rule="evenodd" clip-rule="evenodd" d="M32.0788 44.8715H16.0188C15.6514 44.8715 15.3545 44.5708 15.3545 44.1988V33.1213C15.3545 31.5345 16.634 30.2383 18.2004 30.2383H29.9086C30.3841 30.2383 30.8407 30.3593 31.2372 30.58C31.5643 30.7609 31.6838 31.1725 31.5053 31.4937C31.3264 31.8251 30.92 31.9461 30.6032 31.7653C30.4043 31.6543 30.1565 31.5946 29.9086 31.5946H18.2004C17.3675 31.5946 16.683 32.2876 16.683 33.1314V43.5358H31.4057V42.8529C31.4057 42.4808 31.7026 42.1798 32.07 42.1798C32.4374 42.1798 32.7343 42.4808 32.7343 42.8529V44.219C32.7533 44.5694 32.4564 44.8715 32.0788 44.8715Z" fill="url(#paint5_linear_11_4267)" />
                                             <path fill-rule="evenodd" clip-rule="evenodd" d="M24.05 36.015C23.2169 36.015 22.5326 36.7083 22.5326 37.5521C22.5326 38.3957 23.2169 39.089 24.05 39.089C24.8828 39.089 25.5673 38.3957 25.5673 37.5521C25.5659 36.7071 24.8916 36.015 24.05 36.015ZM24.05 40.4337C22.4836 40.4337 21.2041 39.1375 21.2041 37.551C21.2041 35.9642 22.4836 34.668 24.05 34.668C25.6164 34.668 26.8958 35.9642 26.8958 37.551C26.9047 39.1375 25.6252 40.4337 24.05 40.4337Z" fill="url(#paint6_linear_11_4267)" />
-                                            <mask id="mask1_11_4267" /* style="mask-type:luminance" */ maskUnits="userSpaceOnUse" x="28" y="28" width="17" height="17">
+                                            <mask id="mask1_11_4267" maskUnits="userSpaceOnUse" x="28" y="28" width="17" height="17">
                                                 <path d="M28.1162 28.0195H44.8191V44.9231H28.1162V28.0195Z" fill="white" />
                                             </mask>
                                             <g mask="url(#mask1_11_4267)">
                                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M36.4917 29.4068C32.6356 29.4068 29.5029 32.5803 29.5029 36.4865C29.5029 40.3926 32.6356 43.5659 36.4917 43.5659C40.3481 43.5659 43.4809 40.3926 43.4809 36.4865C43.4809 32.5803 40.3481 29.4068 36.4917 29.4068ZM36.4917 44.9219C31.9021 44.9219 28.1641 41.1356 28.1641 36.4865C28.1641 31.8374 31.9021 28.0508 36.4917 28.0508C41.0816 28.0508 44.8194 31.8374 44.8194 36.4865C44.8194 41.1356 41.0816 44.9219 36.4917 44.9219Z" fill="url(#paint7_linear_11_4267)" />
                                             </g>
-                                            <mask id="mask2_11_4267" /* style="mask-type:luminance" */ maskUnits="userSpaceOnUse" x="30" y="30" width="13" height="13">
+                                            <mask id="mask2_11_4267"  maskUnits="userSpaceOnUse" x="30" y="30" width="13" height="13">
                                                 <path d="M30.7969 30.4844H42.2719V42.0973H30.7969V30.4844Z" fill="white" />
                                             </mask>
                                             <g mask="url(#mask2_11_4267)">
@@ -502,33 +650,8 @@ function Home() {
                         </div>
                     </div>
                 </div>
-            </section>
-            <section className='Top-Integrations-container'>
-                <div className='container'>
-                    <div className='row justify-content-center'>
-                        <div className='col-12'>
-                            <span className='Top-Integrations-header'>Top Integrations</span>
-                            <p className='Top-Integrations-para'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ut sem nec tor Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ut sem nec torLorem ipsum dolor sit amet, consectetur m u</p>
-                        </div>
-                    </div>
-                </div>
-                <div className='top-integration-svg-con'>
-                    <div className='container-fluid'>
-                        <div className='row'>
-                            <div className='col-12 svg-div'>
-                                <svg className='top-line-svg-1' xmlns="http://www.w3.org/2000/svg" width="1905" height="251" viewBox="0 0 1905 251" fill="none">
-                                    <path d="M1 250C91.8152 157.654 269.327 -171.866 620.622 117.482C898.223 346.13 1083.13 209.481 1206.7 151.974C1330.28 94.4657 1658.03 -75.8699 1904 59.9611" stroke="black" stroke-dasharray="9 9" />
-                                </svg>
-                                <svg className='top-line-svg-2' xmlns="http://www.w3.org/2000/svg" width="1945" height="182" viewBox="0 0 1945 182" fill="none">
-                                    <path d="M0 0.0653251C92.0601 85.2037 346.568 228.832 628.117 122.24C980.053 -10.9996 1206.72 -23.9104 1331.99 29.109C1457.25 82.1284 1559.26 220.899 1717.33 171.57C1843.79 132.106 1921.13 95.4986 1944 82.1276" stroke="black" stroke-dasharray="9 9" />
-                                </svg>
-                                <div className='icon-round-div'></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section>
+            </section> */}
+            {/* <section>
                 <div className='container free-trial-con'>
                     <div className='row justify-content-center'>
                         <div className='col-12'>
@@ -555,8 +678,8 @@ function Home() {
                         </div>
                     </div>
                 </div>
-            </section>
-            <section className='benifits-con'>
+            </section> */}
+            {/* <section className='benifits-con'>
                 <div className='container'>
                     <div className='row justify-content-center'>
                         <div className='col-12'>
@@ -569,7 +692,7 @@ function Home() {
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M30.3911 27.1653C30.0704 27.1653 29.7736 26.9571 29.6742 26.6297C29.177 24.9352 29.3323 23.1199 30.1152 21.5116C30.2918 21.1398 30.7331 20.9872 31.1084 21.1621C31.4837 21.3367 31.6376 21.7739 31.4614 22.146C30.8436 23.4253 30.7216 24.8685 31.1084 26.2245C31.2189 26.6186 30.9975 27.0222 30.6013 27.132C30.5356 27.1543 30.4572 27.1653 30.3911 27.1653Z" fill="url(#paint1_linear_105_4917)" />
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M23.1741 27.1653C23.1084 27.1653 23.041 27.1543 22.9642 27.132C22.5664 27.0222 22.3464 26.6073 22.4572 26.2245C22.8547 24.8798 22.7217 23.4253 22.1041 22.146C21.9276 21.7739 22.0819 21.3367 22.4572 21.1621C22.8214 20.9872 23.2735 21.1398 23.45 21.5116C24.2231 23.1186 24.3774 24.9339 23.8913 26.6297C23.792 26.9571 23.4935 27.1653 23.1741 27.1653Z" fill="url(#paint2_linear_105_4917)" />
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M25.4699 6.47611C25.6576 6.47611 25.8341 6.54153 25.9671 6.66201C27.5343 8.07343 32.6324 10.8946 34.8845 12.1075C34.8959 11.4734 34.9728 10.8503 35.1156 10.2479C35.2921 9.51529 35.2585 8.67291 35.0273 7.74308C34.5752 5.97379 33.4268 4.42084 31.7825 3.37054C29.62 2.00349 27.6102 1.52189 25.8119 1.9494C23.3509 2.54046 22.0917 4.61808 22.0822 4.6388C21.9714 4.8247 21.7948 4.94551 21.585 4.98858C20.3483 5.22857 19.4434 5.89606 18.9138 6.98976C18.5385 7.76543 18.4728 8.4883 18.4728 8.57575V11.3319C19.9854 9.72483 21.4742 8.60911 22.5569 7.90955C23.3509 7.39622 24.0247 7.04515 24.4546 6.83852C25.2375 6.47611 25.3594 6.47611 25.4699 6.47611ZM17.7219 14.088C17.6451 14.088 17.5568 14.0767 17.4797 14.0433C17.1815 13.9448 16.9727 13.6605 16.9727 13.3441V8.56474C16.9727 8.55373 16.9727 8.54239 16.9727 8.53138C17.0272 7.1313 17.9432 4.36546 20.9782 3.62153C21.4755 2.9223 22.9547 1.11673 25.4588 0.52697C27.6661 0.00230354 30.061 0.549317 32.5778 2.14502C34.5429 3.39126 35.9224 5.26193 36.4631 7.3933C36.7501 8.55211 36.7838 9.62476 36.5625 10.5866C36.4196 11.1874 36.3523 11.8118 36.3637 12.4463V13.3428C36.3637 13.6048 36.2307 13.8451 35.9996 13.9769C35.7783 14.1087 35.5023 14.1184 35.2712 13.9989C34.9505 13.8354 27.8874 10.1064 25.3271 8.07213C24.2682 8.55373 21.1338 10.1718 18.2963 13.802C18.1632 13.9892 17.9432 14.088 17.7219 14.088Z" fill="url(#paint3_linear_105_4917)" />
-                                    <mask id="mask0_105_4917" /* style="mask-type:luminance" */ maskUnits="userSpaceOnUse" x="9" y="25" width="34" height="24">
+                                    <mask id="mask0_105_4917" maskUnits="userSpaceOnUse" x="9" y="25" width="34" height="24">
                                         <path d="M9.10156 25.5371H42.8484V48.9178H9.10156V25.5371Z" fill="white" />
                                     </mask>
                                     <g mask="url(#mask0_105_4917)">
@@ -577,13 +700,13 @@ function Home() {
                                     </g>
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M35.7104 48.8617H17.8322C17.4233 48.8617 17.0928 48.5343 17.0928 48.1291V36.067C17.0928 34.3392 18.5171 32.9277 20.2608 32.9277H33.2946C33.8238 32.9277 34.3322 33.0595 34.7735 33.2999C35.1377 33.4968 35.2707 33.945 35.072 34.2948C34.8729 34.6556 34.4204 34.7874 34.0677 34.5905C33.8464 34.4697 33.5705 34.4046 33.2946 34.4046H20.2608C19.3337 34.4046 18.5717 35.1592 18.5717 36.078V47.4072H34.9611V46.6636C34.9611 46.2585 35.2916 45.9307 35.7006 45.9307C36.1096 45.9307 36.4401 46.2585 36.4401 46.6636V48.1512C36.4613 48.5327 36.1308 48.8617 35.7104 48.8617Z" fill="url(#paint5_linear_105_4917)" />
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M26.7725 39.2168C25.8451 39.2168 25.0834 39.9717 25.0834 40.8906C25.0834 41.809 25.8451 42.564 26.7725 42.564C27.6996 42.564 28.4617 41.809 28.4617 40.8906C28.46 39.9704 27.7095 39.2168 26.7725 39.2168ZM26.7725 44.0282C25.0288 44.0282 23.6045 42.6168 23.6045 40.8893C23.6045 39.1614 25.0288 37.75 26.7725 37.75C28.5163 37.75 29.9406 39.1614 29.9406 40.8893C29.9504 42.6168 28.5261 44.0282 26.7725 44.0282Z" fill="url(#paint6_linear_105_4917)" />
-                                    <mask id="mask1_105_4917" /* style="mask-type:luminance" */ maskUnits="userSpaceOnUse" x="31" y="30" width="19" height="19">
+                                    <mask id="mask1_105_4917"  maskUnits="userSpaceOnUse" x="31" y="30" width="19" height="19">
                                         <path d="M31.2988 30.5117H49.8926V48.9178H31.2988V30.5117Z" fill="white" />
                                     </mask>
                                     <g mask="url(#mask1_105_4917)">
                                         <path fill-rule="evenodd" clip-rule="evenodd" d="M40.622 32.0214C36.3294 32.0214 32.8419 35.4771 32.8419 39.7305C32.8419 43.9838 36.3294 47.4392 40.622 47.4392C44.9149 47.4392 48.4023 43.9838 48.4023 39.7305C48.4023 35.4771 44.9149 32.0214 40.622 32.0214ZM40.622 48.9157C35.5127 48.9157 31.3516 44.7929 31.3516 39.7305C31.3516 34.6681 35.5127 30.5449 40.622 30.5449C45.7315 30.5449 49.8924 34.6681 49.8924 39.7305C49.8924 44.7929 45.7315 48.9157 40.622 48.9157Z" fill="url(#paint7_linear_105_4917)" />
                                     </g>
-                                    <mask id="mask2_105_4917" /* style="mask-type:luminance" */ maskUnits="userSpaceOnUse" x="34" y="33" width="14" height="13">
+                                    <mask id="mask2_105_4917" maskUnits="userSpaceOnUse" x="34" y="33" width="14" height="13">
                                         <path d="M34.2842 33.1934H47.0583V45.8385H34.2842V33.1934Z" fill="white" />
                                     </mask>
                                     <g mask="url(#mask2_105_4917)">
@@ -644,7 +767,7 @@ function Home() {
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M30.3911 27.1653C30.0704 27.1653 29.7736 26.9571 29.6742 26.6297C29.177 24.9352 29.3323 23.1199 30.1152 21.5116C30.2918 21.1398 30.7331 20.9872 31.1084 21.1621C31.4837 21.3367 31.6376 21.7739 31.4614 22.146C30.8436 23.4253 30.7216 24.8685 31.1084 26.2245C31.2189 26.6186 30.9975 27.0222 30.6013 27.132C30.5356 27.1543 30.4572 27.1653 30.3911 27.1653Z" fill="url(#paint1_linear_105_4917)" />
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M23.1741 27.1653C23.1084 27.1653 23.041 27.1543 22.9642 27.132C22.5664 27.0222 22.3464 26.6073 22.4572 26.2245C22.8547 24.8798 22.7217 23.4253 22.1041 22.146C21.9276 21.7739 22.0819 21.3367 22.4572 21.1621C22.8214 20.9872 23.2735 21.1398 23.45 21.5116C24.2231 23.1186 24.3774 24.9339 23.8913 26.6297C23.792 26.9571 23.4935 27.1653 23.1741 27.1653Z" fill="url(#paint2_linear_105_4917)" />
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M25.4699 6.47611C25.6576 6.47611 25.8341 6.54153 25.9671 6.66201C27.5343 8.07343 32.6324 10.8946 34.8845 12.1075C34.8959 11.4734 34.9728 10.8503 35.1156 10.2479C35.2921 9.51529 35.2585 8.67291 35.0273 7.74308C34.5752 5.97379 33.4268 4.42084 31.7825 3.37054C29.62 2.00349 27.6102 1.52189 25.8119 1.9494C23.3509 2.54046 22.0917 4.61808 22.0822 4.6388C21.9714 4.8247 21.7948 4.94551 21.585 4.98858C20.3483 5.22857 19.4434 5.89606 18.9138 6.98976C18.5385 7.76543 18.4728 8.4883 18.4728 8.57575V11.3319C19.9854 9.72483 21.4742 8.60911 22.5569 7.90955C23.3509 7.39622 24.0247 7.04515 24.4546 6.83852C25.2375 6.47611 25.3594 6.47611 25.4699 6.47611ZM17.7219 14.088C17.6451 14.088 17.5568 14.0767 17.4797 14.0433C17.1815 13.9448 16.9727 13.6605 16.9727 13.3441V8.56474C16.9727 8.55373 16.9727 8.54239 16.9727 8.53138C17.0272 7.1313 17.9432 4.36546 20.9782 3.62153C21.4755 2.9223 22.9547 1.11673 25.4588 0.52697C27.6661 0.00230354 30.061 0.549317 32.5778 2.14502C34.5429 3.39126 35.9224 5.26193 36.4631 7.3933C36.7501 8.55211 36.7838 9.62476 36.5625 10.5866C36.4196 11.1874 36.3523 11.8118 36.3637 12.4463V13.3428C36.3637 13.6048 36.2307 13.8451 35.9996 13.9769C35.7783 14.1087 35.5023 14.1184 35.2712 13.9989C34.9505 13.8354 27.8874 10.1064 25.3271 8.07213C24.2682 8.55373 21.1338 10.1718 18.2963 13.802C18.1632 13.9892 17.9432 14.088 17.7219 14.088Z" fill="url(#paint3_linear_105_4917)" />
-                                    <mask id="mask0_105_4917" /* style="mask-type:luminance" */ maskUnits="userSpaceOnUse" x="9" y="25" width="34" height="24">
+                                    <mask id="mask0_105_4917" maskUnits="userSpaceOnUse" x="9" y="25" width="34" height="24">
                                         <path d="M9.10156 25.5371H42.8484V48.9178H9.10156V25.5371Z" fill="white" />
                                     </mask>
                                     <g mask="url(#mask0_105_4917)">
@@ -652,13 +775,13 @@ function Home() {
                                     </g>
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M35.7104 48.8617H17.8322C17.4233 48.8617 17.0928 48.5343 17.0928 48.1291V36.067C17.0928 34.3392 18.5171 32.9277 20.2608 32.9277H33.2946C33.8238 32.9277 34.3322 33.0595 34.7735 33.2999C35.1377 33.4968 35.2707 33.945 35.072 34.2948C34.8729 34.6556 34.4204 34.7874 34.0677 34.5905C33.8464 34.4697 33.5705 34.4046 33.2946 34.4046H20.2608C19.3337 34.4046 18.5717 35.1592 18.5717 36.078V47.4072H34.9611V46.6636C34.9611 46.2585 35.2916 45.9307 35.7006 45.9307C36.1096 45.9307 36.4401 46.2585 36.4401 46.6636V48.1512C36.4613 48.5327 36.1308 48.8617 35.7104 48.8617Z" fill="url(#paint5_linear_105_4917)" />
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M26.7725 39.2168C25.8451 39.2168 25.0834 39.9717 25.0834 40.8906C25.0834 41.809 25.8451 42.564 26.7725 42.564C27.6996 42.564 28.4617 41.809 28.4617 40.8906C28.46 39.9704 27.7095 39.2168 26.7725 39.2168ZM26.7725 44.0282C25.0288 44.0282 23.6045 42.6168 23.6045 40.8893C23.6045 39.1614 25.0288 37.75 26.7725 37.75C28.5163 37.75 29.9406 39.1614 29.9406 40.8893C29.9504 42.6168 28.5261 44.0282 26.7725 44.0282Z" fill="url(#paint6_linear_105_4917)" />
-                                    <mask id="mask1_105_4917" /* style="mask-type:luminance" */ maskUnits="userSpaceOnUse" x="31" y="30" width="19" height="19">
+                                    <mask id="mask1_105_4917" maskUnits="userSpaceOnUse" x="31" y="30" width="19" height="19">
                                         <path d="M31.2988 30.5117H49.8926V48.9178H31.2988V30.5117Z" fill="white" />
                                     </mask>
                                     <g mask="url(#mask1_105_4917)">
                                         <path fill-rule="evenodd" clip-rule="evenodd" d="M40.622 32.0214C36.3294 32.0214 32.8419 35.4771 32.8419 39.7305C32.8419 43.9838 36.3294 47.4392 40.622 47.4392C44.9149 47.4392 48.4023 43.9838 48.4023 39.7305C48.4023 35.4771 44.9149 32.0214 40.622 32.0214ZM40.622 48.9157C35.5127 48.9157 31.3516 44.7929 31.3516 39.7305C31.3516 34.6681 35.5127 30.5449 40.622 30.5449C45.7315 30.5449 49.8924 34.6681 49.8924 39.7305C49.8924 44.7929 45.7315 48.9157 40.622 48.9157Z" fill="url(#paint7_linear_105_4917)" />
                                     </g>
-                                    <mask id="mask2_105_4917" /* style="mask-type:luminance" */ maskUnits="userSpaceOnUse" x="34" y="33" width="14" height="13">
+                                    <mask id="mask2_105_4917"  maskUnits="userSpaceOnUse" x="34" y="33" width="14" height="13">
                                         <path d="M34.2842 33.1934H47.0583V45.8385H34.2842V33.1934Z" fill="white" />
                                     </mask>
                                     <g mask="url(#mask2_105_4917)">
@@ -719,7 +842,7 @@ function Home() {
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M30.3911 27.1653C30.0704 27.1653 29.7736 26.9571 29.6742 26.6297C29.177 24.9352 29.3323 23.1199 30.1152 21.5116C30.2918 21.1398 30.7331 20.9872 31.1084 21.1621C31.4837 21.3367 31.6376 21.7739 31.4614 22.146C30.8436 23.4253 30.7216 24.8685 31.1084 26.2245C31.2189 26.6186 30.9975 27.0222 30.6013 27.132C30.5356 27.1543 30.4572 27.1653 30.3911 27.1653Z" fill="url(#paint1_linear_105_4917)" />
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M23.1741 27.1653C23.1084 27.1653 23.041 27.1543 22.9642 27.132C22.5664 27.0222 22.3464 26.6073 22.4572 26.2245C22.8547 24.8798 22.7217 23.4253 22.1041 22.146C21.9276 21.7739 22.0819 21.3367 22.4572 21.1621C22.8214 20.9872 23.2735 21.1398 23.45 21.5116C24.2231 23.1186 24.3774 24.9339 23.8913 26.6297C23.792 26.9571 23.4935 27.1653 23.1741 27.1653Z" fill="url(#paint2_linear_105_4917)" />
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M25.4699 6.47611C25.6576 6.47611 25.8341 6.54153 25.9671 6.66201C27.5343 8.07343 32.6324 10.8946 34.8845 12.1075C34.8959 11.4734 34.9728 10.8503 35.1156 10.2479C35.2921 9.51529 35.2585 8.67291 35.0273 7.74308C34.5752 5.97379 33.4268 4.42084 31.7825 3.37054C29.62 2.00349 27.6102 1.52189 25.8119 1.9494C23.3509 2.54046 22.0917 4.61808 22.0822 4.6388C21.9714 4.8247 21.7948 4.94551 21.585 4.98858C20.3483 5.22857 19.4434 5.89606 18.9138 6.98976C18.5385 7.76543 18.4728 8.4883 18.4728 8.57575V11.3319C19.9854 9.72483 21.4742 8.60911 22.5569 7.90955C23.3509 7.39622 24.0247 7.04515 24.4546 6.83852C25.2375 6.47611 25.3594 6.47611 25.4699 6.47611ZM17.7219 14.088C17.6451 14.088 17.5568 14.0767 17.4797 14.0433C17.1815 13.9448 16.9727 13.6605 16.9727 13.3441V8.56474C16.9727 8.55373 16.9727 8.54239 16.9727 8.53138C17.0272 7.1313 17.9432 4.36546 20.9782 3.62153C21.4755 2.9223 22.9547 1.11673 25.4588 0.52697C27.6661 0.00230354 30.061 0.549317 32.5778 2.14502C34.5429 3.39126 35.9224 5.26193 36.4631 7.3933C36.7501 8.55211 36.7838 9.62476 36.5625 10.5866C36.4196 11.1874 36.3523 11.8118 36.3637 12.4463V13.3428C36.3637 13.6048 36.2307 13.8451 35.9996 13.9769C35.7783 14.1087 35.5023 14.1184 35.2712 13.9989C34.9505 13.8354 27.8874 10.1064 25.3271 8.07213C24.2682 8.55373 21.1338 10.1718 18.2963 13.802C18.1632 13.9892 17.9432 14.088 17.7219 14.088Z" fill="url(#paint3_linear_105_4917)" />
-                                    <mask id="mask0_105_4917" /* style="mask-type:luminance" */ maskUnits="userSpaceOnUse" x="9" y="25" width="34" height="24">
+                                    <mask id="mask0_105_4917" maskUnits="userSpaceOnUse" x="9" y="25" width="34" height="24">
                                         <path d="M9.10156 25.5371H42.8484V48.9178H9.10156V25.5371Z" fill="white" />
                                     </mask>
                                     <g mask="url(#mask0_105_4917)">
@@ -727,13 +850,13 @@ function Home() {
                                     </g>
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M35.7104 48.8617H17.8322C17.4233 48.8617 17.0928 48.5343 17.0928 48.1291V36.067C17.0928 34.3392 18.5171 32.9277 20.2608 32.9277H33.2946C33.8238 32.9277 34.3322 33.0595 34.7735 33.2999C35.1377 33.4968 35.2707 33.945 35.072 34.2948C34.8729 34.6556 34.4204 34.7874 34.0677 34.5905C33.8464 34.4697 33.5705 34.4046 33.2946 34.4046H20.2608C19.3337 34.4046 18.5717 35.1592 18.5717 36.078V47.4072H34.9611V46.6636C34.9611 46.2585 35.2916 45.9307 35.7006 45.9307C36.1096 45.9307 36.4401 46.2585 36.4401 46.6636V48.1512C36.4613 48.5327 36.1308 48.8617 35.7104 48.8617Z" fill="url(#paint5_linear_105_4917)" />
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M26.7725 39.2168C25.8451 39.2168 25.0834 39.9717 25.0834 40.8906C25.0834 41.809 25.8451 42.564 26.7725 42.564C27.6996 42.564 28.4617 41.809 28.4617 40.8906C28.46 39.9704 27.7095 39.2168 26.7725 39.2168ZM26.7725 44.0282C25.0288 44.0282 23.6045 42.6168 23.6045 40.8893C23.6045 39.1614 25.0288 37.75 26.7725 37.75C28.5163 37.75 29.9406 39.1614 29.9406 40.8893C29.9504 42.6168 28.5261 44.0282 26.7725 44.0282Z" fill="url(#paint6_linear_105_4917)" />
-                                    <mask id="mask1_105_4917" /* style="mask-type:luminance" */ maskUnits="userSpaceOnUse" x="31" y="30" width="19" height="19">
+                                    <mask id="mask1_105_4917"  maskUnits="userSpaceOnUse" x="31" y="30" width="19" height="19">
                                         <path d="M31.2988 30.5117H49.8926V48.9178H31.2988V30.5117Z" fill="white" />
                                     </mask>
                                     <g mask="url(#mask1_105_4917)">
                                         <path fill-rule="evenodd" clip-rule="evenodd" d="M40.622 32.0214C36.3294 32.0214 32.8419 35.4771 32.8419 39.7305C32.8419 43.9838 36.3294 47.4392 40.622 47.4392C44.9149 47.4392 48.4023 43.9838 48.4023 39.7305C48.4023 35.4771 44.9149 32.0214 40.622 32.0214ZM40.622 48.9157C35.5127 48.9157 31.3516 44.7929 31.3516 39.7305C31.3516 34.6681 35.5127 30.5449 40.622 30.5449C45.7315 30.5449 49.8924 34.6681 49.8924 39.7305C49.8924 44.7929 45.7315 48.9157 40.622 48.9157Z" fill="url(#paint7_linear_105_4917)" />
                                     </g>
-                                    <mask id="mask2_105_4917" /* style="mask-type:luminance" */ maskUnits="userSpaceOnUse" x="34" y="33" width="14" height="13">
+                                    <mask id="mask2_105_4917"  maskUnits="userSpaceOnUse" x="34" y="33" width="14" height="13">
                                         <path d="M34.2842 33.1934H47.0583V45.8385H34.2842V33.1934Z" fill="white" />
                                     </mask>
                                     <g mask="url(#mask2_105_4917)">
@@ -794,7 +917,7 @@ function Home() {
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M30.3911 27.1653C30.0704 27.1653 29.7736 26.9571 29.6742 26.6297C29.177 24.9352 29.3323 23.1199 30.1152 21.5116C30.2918 21.1398 30.7331 20.9872 31.1084 21.1621C31.4837 21.3367 31.6376 21.7739 31.4614 22.146C30.8436 23.4253 30.7216 24.8685 31.1084 26.2245C31.2189 26.6186 30.9975 27.0222 30.6013 27.132C30.5356 27.1543 30.4572 27.1653 30.3911 27.1653Z" fill="url(#paint1_linear_105_4917)" />
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M23.1741 27.1653C23.1084 27.1653 23.041 27.1543 22.9642 27.132C22.5664 27.0222 22.3464 26.6073 22.4572 26.2245C22.8547 24.8798 22.7217 23.4253 22.1041 22.146C21.9276 21.7739 22.0819 21.3367 22.4572 21.1621C22.8214 20.9872 23.2735 21.1398 23.45 21.5116C24.2231 23.1186 24.3774 24.9339 23.8913 26.6297C23.792 26.9571 23.4935 27.1653 23.1741 27.1653Z" fill="url(#paint2_linear_105_4917)" />
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M25.4699 6.47611C25.6576 6.47611 25.8341 6.54153 25.9671 6.66201C27.5343 8.07343 32.6324 10.8946 34.8845 12.1075C34.8959 11.4734 34.9728 10.8503 35.1156 10.2479C35.2921 9.51529 35.2585 8.67291 35.0273 7.74308C34.5752 5.97379 33.4268 4.42084 31.7825 3.37054C29.62 2.00349 27.6102 1.52189 25.8119 1.9494C23.3509 2.54046 22.0917 4.61808 22.0822 4.6388C21.9714 4.8247 21.7948 4.94551 21.585 4.98858C20.3483 5.22857 19.4434 5.89606 18.9138 6.98976C18.5385 7.76543 18.4728 8.4883 18.4728 8.57575V11.3319C19.9854 9.72483 21.4742 8.60911 22.5569 7.90955C23.3509 7.39622 24.0247 7.04515 24.4546 6.83852C25.2375 6.47611 25.3594 6.47611 25.4699 6.47611ZM17.7219 14.088C17.6451 14.088 17.5568 14.0767 17.4797 14.0433C17.1815 13.9448 16.9727 13.6605 16.9727 13.3441V8.56474C16.9727 8.55373 16.9727 8.54239 16.9727 8.53138C17.0272 7.1313 17.9432 4.36546 20.9782 3.62153C21.4755 2.9223 22.9547 1.11673 25.4588 0.52697C27.6661 0.00230354 30.061 0.549317 32.5778 2.14502C34.5429 3.39126 35.9224 5.26193 36.4631 7.3933C36.7501 8.55211 36.7838 9.62476 36.5625 10.5866C36.4196 11.1874 36.3523 11.8118 36.3637 12.4463V13.3428C36.3637 13.6048 36.2307 13.8451 35.9996 13.9769C35.7783 14.1087 35.5023 14.1184 35.2712 13.9989C34.9505 13.8354 27.8874 10.1064 25.3271 8.07213C24.2682 8.55373 21.1338 10.1718 18.2963 13.802C18.1632 13.9892 17.9432 14.088 17.7219 14.088Z" fill="url(#paint3_linear_105_4917)" />
-                                    <mask id="mask0_105_4917" /* style="mask-type:luminance" */ maskUnits="userSpaceOnUse" x="9" y="25" width="34" height="24">
+                                    <mask id="mask0_105_4917"  maskUnits="userSpaceOnUse" x="9" y="25" width="34" height="24">
                                         <path d="M9.10156 25.5371H42.8484V48.9178H9.10156V25.5371Z" fill="white" />
                                     </mask>
                                     <g mask="url(#mask0_105_4917)">
@@ -802,13 +925,13 @@ function Home() {
                                     </g>
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M35.7104 48.8617H17.8322C17.4233 48.8617 17.0928 48.5343 17.0928 48.1291V36.067C17.0928 34.3392 18.5171 32.9277 20.2608 32.9277H33.2946C33.8238 32.9277 34.3322 33.0595 34.7735 33.2999C35.1377 33.4968 35.2707 33.945 35.072 34.2948C34.8729 34.6556 34.4204 34.7874 34.0677 34.5905C33.8464 34.4697 33.5705 34.4046 33.2946 34.4046H20.2608C19.3337 34.4046 18.5717 35.1592 18.5717 36.078V47.4072H34.9611V46.6636C34.9611 46.2585 35.2916 45.9307 35.7006 45.9307C36.1096 45.9307 36.4401 46.2585 36.4401 46.6636V48.1512C36.4613 48.5327 36.1308 48.8617 35.7104 48.8617Z" fill="url(#paint5_linear_105_4917)" />
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M26.7725 39.2168C25.8451 39.2168 25.0834 39.9717 25.0834 40.8906C25.0834 41.809 25.8451 42.564 26.7725 42.564C27.6996 42.564 28.4617 41.809 28.4617 40.8906C28.46 39.9704 27.7095 39.2168 26.7725 39.2168ZM26.7725 44.0282C25.0288 44.0282 23.6045 42.6168 23.6045 40.8893C23.6045 39.1614 25.0288 37.75 26.7725 37.75C28.5163 37.75 29.9406 39.1614 29.9406 40.8893C29.9504 42.6168 28.5261 44.0282 26.7725 44.0282Z" fill="url(#paint6_linear_105_4917)" />
-                                    <mask id="mask1_105_4917" /* style="mask-type:luminance" */ maskUnits="userSpaceOnUse" x="31" y="30" width="19" height="19">
+                                    <mask id="mask1_105_4917"  maskUnits="userSpaceOnUse" x="31" y="30" width="19" height="19">
                                         <path d="M31.2988 30.5117H49.8926V48.9178H31.2988V30.5117Z" fill="white" />
                                     </mask>
                                     <g mask="url(#mask1_105_4917)">
                                         <path fill-rule="evenodd" clip-rule="evenodd" d="M40.622 32.0214C36.3294 32.0214 32.8419 35.4771 32.8419 39.7305C32.8419 43.9838 36.3294 47.4392 40.622 47.4392C44.9149 47.4392 48.4023 43.9838 48.4023 39.7305C48.4023 35.4771 44.9149 32.0214 40.622 32.0214ZM40.622 48.9157C35.5127 48.9157 31.3516 44.7929 31.3516 39.7305C31.3516 34.6681 35.5127 30.5449 40.622 30.5449C45.7315 30.5449 49.8924 34.6681 49.8924 39.7305C49.8924 44.7929 45.7315 48.9157 40.622 48.9157Z" fill="url(#paint7_linear_105_4917)" />
                                     </g>
-                                    <mask id="mask2_105_4917" /* style="mask-type:luminance" */ maskUnits="userSpaceOnUse" x="34" y="33" width="14" height="13">
+                                    <mask id="mask2_105_4917"  maskUnits="userSpaceOnUse" x="34" y="33" width="14" height="13">
                                         <path d="M34.2842 33.1934H47.0583V45.8385H34.2842V33.1934Z" fill="white" />
                                     </mask>
                                     <g mask="url(#mask2_105_4917)">
@@ -872,8 +995,8 @@ function Home() {
                         </div>
                     </div>
                 </div>
-            </section>
-            <section className='asked-question-block'>
+            </section> */}
+            {/*  <section className='asked-question-block'>
                 <div className='container'>
                     <div className='row justify-content-center'>
                         <div className='col-12'>
@@ -913,7 +1036,7 @@ function Home() {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
         </div>
     )
 }

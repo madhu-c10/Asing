@@ -17,7 +17,8 @@
     /* 60px */
     text-align: center;
     display: block;
-    margin-bottom: 3rem;
+   /*  margin-bottom: 3rem; */
+   margin-top: 9rem;
 }
 
 .cards-div {
@@ -149,6 +150,7 @@
     line-height: 150%;
     /* 24px */
     text-align: center;
+    padding: 0px 90px 0px 90px;
 }
 
 .svg-div {
@@ -349,11 +351,81 @@
     --bs-accordion-btn-padding-y: 1.5rem !important;
     --bs-accordion-btn-focus-box-shadow: none !important;
     --bs-accordion-active-bg: none !important;
-    width: 90% !important;
+    width: 50% !important;
+    margin-left: 90px;
 }
 
 .accordion-item {
     border: 1px solid #504D9E !important;
     border-radius: 10px !important;
     margin-bottom: 20px;
+}
+/*-------------------------- Top Features ----------------------------*/
+.top-fuatures-back-img{
+    background: url(../../assets/Vector\ 88.png);
+    background-repeat: no-repeat !important;
+    background-position: center;
+    width: 100% ;
+/* height: 900px; */
+flex-shrink: 0;
+}
+.top-features-para{
+    color: #2E2E2E;
+text-align: center;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; /* 24px */
+}
+.top-features-inner-con{
+    padding: 50px 90px 50px 90px; 
+}
+.top-features-inner-span{
+    color: #2E2E2E;
+text-align: center;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; /* 24px */
+margin-left: 10px;
+margin-bottom: 50px;
+}
+.top-features-inner-span-div{
+    margin-bottom: 40px;
+}
+.top-features-left-div{
+    margin-top: 60px;
+    border-right: 1.5px solid #80BAF1;
+    height: 235px;
+}
+.top-features-img-div{
+    padding: 70px;
+}
+.top-features-right-div{
+    margin-top: 60px;
+    border-left: 1.5px solid #80BAF1;
+    height: 235px;
+}
+/*---------------- frequently asked question section ---------------*/
+.frequently-ask-ques-back-block{
+    right: -550px !important;
+    position: relative;
+    width: 600px;
+    height: 600px;
+    border-radius: 1570px;
+background: linear-gradient(180deg, #BDEDFF 67.3%, #BEC4FF 100%);
+}
+.frequently-ask-ques-section{
+    width: 100% !important;
+     height: auto !important; 
+    overflow: hidden;
+}
+.top-features-acc-container{
+    position: absolute;
+    margin-top: 120px;
+}
+.accordion-button::after{
+    margin-top: -15px !important;
 }
