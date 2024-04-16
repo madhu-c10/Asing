@@ -23,7 +23,7 @@ function Banner() {
               <span className='banner-titte-text'>Active Directory Management </span>
               <span className='banner-second-tittle'>Software at its Best</span>
               <p className='banner-p'>Lorem ipsum dolor sit amet, consectetur adipiscing <br /> elit. Nullam ut sem nec tor</p>
-              <button className="button-banner" role="button">Start Free Trial</button>
+              <button className="button-banner" role="button">Get Started</button>
             </div>
             <div className='banner-inner-div'></div>
             <svg className='banner-bottom-svg' xmlns="http://www.w3.org/2000/svg" width="93" height="93" viewBox="0 0 93 93" fill="none">

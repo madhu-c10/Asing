@@ -104,6 +104,10 @@ margin-top: 20px;
     display: inline-block;
     line-height: 80px !important;
 }
+.nav-img{
+    height: 44px;
+    border: none !important;
+}
 /*------------------@media screen settings----------------------*/
 
 @media screen and (max-width:1100px) {

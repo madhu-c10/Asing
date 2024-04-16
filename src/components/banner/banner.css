@@ -17,24 +17,50 @@ margin-top: -1100px;
     left: -290px;
     bottom: 40px;
     position: relative;
-   /*  width: 114.207px;
-height: 114.207px; */
 transform: rotate(35.842deg);
 flex-shrink: 0;
 stroke-width: 10px;
 stroke: #5CCBF5;
+/* animation: animatebottomsvg 5s infinite; */
+animation-duration: 5s;
+animation-delay: 2s; 
+animation-timing-function: ease-out;
+animation: 3s linear 1s infinite alternate animatebottomsvg !important;
 }
 .banner-svg-one{
     top: -30px;
     position: inherit;
     left: -37px;
+    /* animation: animatesvg 5s infinite; */
+    animation-duration: 5s;
+    animation-delay: 2s; 
+    animation-timing-function: ease-out;
+  animation: 3s linear 1s infinite alternate animatesvg !important;
 }
+@keyframes animatesvg{
+    from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(90deg);
+      }
+}
+
+@keyframes animatebottomsvg{
+    from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(90deg);
+      }
+}
+
 .banner-inner-div{
-    width: 515.757px; 
+    width: 630.757px; 
 height: 604.584px;
 margin-top: 100px;
 flex-shrink: 0;
-background: url(../../assets/Rectangle.svg);
+background: url(../../assets/Group\ 2067\ \(1\).png);
 position: absolute;
 background-repeat: no-repeat;
 right: 0;
@@ -101,7 +127,7 @@ margin-top: 20px;
 }
 
 .button-banner::after {
-    background-color: #111;
+    background-color: #2AB8D5;
     border-radius: 10px;
     content: "";
     display: block;

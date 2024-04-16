@@ -379,7 +379,7 @@ font-weight: 500;
 line-height: 150%; /* 24px */
 }
 .top-features-inner-con{
-    padding: 50px 90px 50px 90px; 
+    padding: 50px 90px 200px 90px; 
 }
 .top-features-inner-span{
     color: #2E2E2E;
@@ -401,7 +401,7 @@ margin-bottom: 50px;
     height: 235px;
 }
 .top-features-img-div{
-    padding: 70px;
+    padding: 70px 90px 90px 90px;
 }
 .top-features-right-div{
     margin-top: 60px;
@@ -429,3 +429,40 @@ background: linear-gradient(180deg, #BDEDFF 67.3%, #BEC4FF 100%);
 .accordion-button::after{
     margin-top: -15px !important;
 }
+
+/*--------------------- background pulse animation ------------------------------*/
+
+.circle{
+    border-radius: 50%;
+    box-shadow: 0px 0px 1px 1px #0000001a;
+    background-color: #F4FAFF;
+}
+.pulse{
+    animation: pulse-animation 2s infinite;
+}
+@keyframes pulse-animation {
+    0% {
+      box-shadow: 0 0 0 0px #F4FAFF;
+    }
+    100% {
+      box-shadow: 0 0 0 70px #F4FAFF;
+    }
+  }
+  .round-animate-svg{
+    right: 460px;
+    position: absolute;
+    bottom: 47px;
+/*     animation-name: round !important; */
+  animation-duration: 4s !important;
+  animation: 3s linear 1s infinite alternate slidein !important;
+  animation-delay: 2s; 
+    animation-timing-function: ease-out;
+  }
+  @keyframes slidein {
+    from {
+        left: 50px;
+      }
+      to {
+        left: -50px;
+      }
+  }

@@ -2,7 +2,8 @@ import React from 'react';
 import Banner from '../../components/banner/Banner';
 import './home.css';
 import Button from '../../components/button/Button';
-import { topfeaturesimg } from '../../assets/image';
+import { topfeaturesimg, topintegrationimg } from '../../assets/image';
+import {motion} from 'framer-motion';
 
 function Home() {
     return (
@@ -12,7 +13,17 @@ function Home() {
                 <div className='container'>
                     <div className='row justify-content-center'>
                         <div className='col-12'>
+                            <motion.div
+                            variants={{
+                                hidden:{opacity:0,y:75},
+                                visible:{opacity:1,y:0}
+                            }}
+                            initial="hidden"
+                            animate="visible"
+                            transition={{duration:1,delay:0.50}}
+                            >
                             <span className='Top-Integrations-header'>Top Integrations</span>
+                                 </motion.div>
                             <p className='Top-Integrations-para'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ut sem nec tor Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ut sem nec torLorem ipsum dolor sit amet, consectetur m u</p>
                         </div>
                     </div>
@@ -21,13 +32,14 @@ function Home() {
                     <div className='container-fluid'>
                         <div className='row'>
                             <div className='col-12 svg-div'>
-                                <svg className='top-line-svg-1' xmlns="http://www.w3.org/2000/svg" width="1905" height="251" viewBox="0 0 1905 251" fill="none">
+                            <img src={topintegrationimg} class="img-fluid" alt="Responsive image"/>
+                                {/* <svg className='top-line-svg-1' xmlns="http://www.w3.org/2000/svg" width="1905" height="251" viewBox="0 0 1905 251" fill="none">
                                     <path d="M1 250C91.8152 157.654 269.327 -171.866 620.622 117.482C898.223 346.13 1083.13 209.481 1206.7 151.974C1330.28 94.4657 1658.03 -75.8699 1904 59.9611" stroke="black" stroke-dasharray="9 9" />
                                 </svg>
                                 <svg className='top-line-svg-2' xmlns="http://www.w3.org/2000/svg" width="1945" height="182" viewBox="0 0 1945 182" fill="none">
                                     <path d="M0 0.0653251C92.0601 85.2037 346.568 228.832 628.117 122.24C980.053 -10.9996 1206.72 -23.9104 1331.99 29.109C1457.25 82.1284 1559.26 220.899 1717.33 171.57C1843.79 132.106 1921.13 95.4986 1944 82.1276" stroke="black" stroke-dasharray="9 9" />
                                 </svg>
-                                <div className='icon-round-div'></div>
+                                <div className='icon-round-div'></div> */}
                             </div>
                         </div>
                     </div>
@@ -73,7 +85,7 @@ function Home() {
                                     </div>
 
                                 </div>
-                                <div className='col-md-6 top-features-img-div'><img src={topfeaturesimg} className="img-fluid" alt="Responsive image" /></div>
+                                <div className='col-md-6  top-features-img-div'><div className='circle pulse'><img src={topfeaturesimg} className="img-fluid" alt="Responsive image" /></div></div>
                                 <div className='col-md-3  top-features-right-div'>
                                     <div className='top-features-inner-span-div'>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -148,7 +160,7 @@ function Home() {
                     </div>
                 </div>
                 <div className='container-fluid frequently-ask-ques-back-block'>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="176" height="176" viewBox="0 0 176 176" fill="none">
+                    <svg className='round-animate-svg' xmlns="http://www.w3.org/2000/svg" width="176" height="176" viewBox="0 0 176 176" fill="none">
                         <path d="M128.077 35.6585L134.406 41.2605L139.965 47.6259L144.666 54.6499L148.429 62.2173L151.194 70.2039L152.915 78.4784L153.563 86.9051L153.129 95.3455L151.619 103.661L149.058 111.715L145.488 119.376L140.968 126.517L135.571 133.022L129.388 138.783L122.518 143.706L115.075 147.71L107.181 150.729L98.966 152.714L90.5643 153.633L82.1144 153.469L73.7546 152.226L65.6225 149.925L57.8513 146.602L50.569 142.313L43.8949 137.128L37.9386 131.132L32.7979 124.423L28.5574 117.113L25.2865 109.32L23.039 101.173L21.8519 92.8047L21.7445 84.3537L22.7187 75.9584L24.7584 67.7567L27.8303 59.8831L31.8837 52.467L36.8523 45.6301L42.6543 39.4847L49.1945 34.1317L56.3656 29.659L64.0498 26.14L72.1208 23.6326L80.4463 22.1778L88.8894 21.7996L97.3116 22.5042L105.575 24.2801L113.543 27.0979L121.085 30.9116L128.077 35.6585Z" stroke="url(#paint0_linear_247_12013)" stroke-width="43" />
                         <defs>
                             <linearGradient id="paint0_linear_247_12013" x1="64.4169" y1="76.202" x2="149.279" y2="149.82" gradientUnits="userSpaceOnUse">

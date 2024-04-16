@@ -1,5 +1,6 @@
 import React from 'react';
 import './footer.css';
+import { footerlogo } from '../../assets/image';
 
 function Footer() {
     return (
@@ -53,7 +54,9 @@ function Footer() {
                             </div>
                         </div>
                         <div className='col-md-4'>
-                            <div className='footer-logo-div'></div>
+                            <div className='footer-logo-div'>
+                            <img src={footerlogo} alt="..." class="img-thumbnail footer-img"/>
+                            </div>
                             <div className='footer-social-icons-div'>
                                 <div className='footer-social-icons'>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="8" height="16" viewBox="0 0 8 16" fill="none">
@@ -96,9 +99,9 @@ function Footer() {
                                 <div className='mt-3'>
                                     <span className='copy-right-text'>Contact us</span>
                                     <div className='footer-line-div'></div>
-                                    <span className='copy-right-text'>Contact us</span>
+                                    <span className='copy-right-text'>Privacy Policy</span>
                                     <div className='footer-line-div'></div>
-                                    <span className='copy-right-text'>Contact us</span>
+                                    <span className='copy-right-text'>Terms of service</span>
                                     <div className='footer-line-div'></div>
                                 </div>
                             </div>
