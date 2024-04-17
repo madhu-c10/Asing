@@ -1,14 +1,15 @@
 .banner-section{
     background: #BDEDFF;
     height: 860px;
-    border-radius: 10% 30% 50% 40%;
+    border-radius: 50% 10% 100% 70%;
+
 }
 .banner-container{
     width: 1000px;
 height: 1803px;
 flex-shrink: 0;
-border-bottom-right-radius: 775px;
-border-bottom-left-radius: 360px;
+border-bottom-right-radius: 1358px;
+    border-bottom-left-radius: 650px;
 background: linear-gradient(180deg, #BDEDFF 67.3%, #BEC4FF 100%);
 margin-top: -1100px;
 /* margin-right: 50px; */
@@ -22,17 +23,18 @@ flex-shrink: 0;
 stroke-width: 10px;
 stroke: #5CCBF5;
 /* animation: animatebottomsvg 5s infinite; */
-animation-duration: 5s;
+animation-duration: 2s;
 animation-delay: 2s; 
 animation-timing-function: ease-out;
 animation: 3s linear 1s infinite alternate animatebottomsvg !important;
 }
 .banner-svg-one{
+    z-index: -1;
     top: -30px;
     position: inherit;
     left: -37px;
     /* animation: animatesvg 5s infinite; */
-    animation-duration: 5s;
+    animation-duration: 2s;
     animation-delay: 2s; 
     animation-timing-function: ease-out;
   animation: 3s linear 1s infinite alternate animatesvg !important;
@@ -42,7 +44,7 @@ animation: 3s linear 1s infinite alternate animatebottomsvg !important;
         transform: rotate(0deg);
       }
       to {
-        transform: rotate(90deg);
+        transform: rotate(45deg);
       }
 }
 
@@ -51,23 +53,23 @@ animation: 3s linear 1s infinite alternate animatebottomsvg !important;
         transform: rotate(0deg);
       }
       to {
-        transform: rotate(90deg);
+        transform: rotate(45deg);
       }
 }
 
 .banner-inner-div{
-    width: 630.757px; 
-height: 604.584px;
-margin-top: 100px;
+    width: 515.757px; 
+height: 634.584px;
+margin-top: 150px;
 flex-shrink: 0;
-background: url(../../assets/Group\ 2067\ \(1\).png);
+background: url(../../assets/37\ 1.svg);
 position: absolute;
 background-repeat: no-repeat;
 right: 0;
 }
 .banner-text-container{
     position: absolute;
-    margin-top: 250px;
+    margin-top: 200px;
     width: 60%;
     margin-left: 40px;
     z-index: 950;
@@ -102,6 +104,7 @@ margin-top: 20px;
     align-items: center;
     border-radius: 10px;
     background: #504D9E;
+    border: 2px solid #504D9E;
     cursor: pointer;
     display: flex;
     font-size: 16px;
@@ -159,4 +162,38 @@ margin-top: 20px;
     .button-banner {
         padding: 0 40px;
     }
+}
+.banner-sub-img{
+    top: 60px;
+    left: -90px;
+    position: absolute;
+     animation-duration: 2s !important;
+    animation: 3s linear 1s infinite alternate animatesubimg;
+  animation-delay: 2s; 
+    animation-timing-function: ease-out;
+}
+@keyframes animatesubimg{
+    from {
+        top: 60px;
+      }
+      to {
+        top: 40px;
+      }
+}
+.banner-sub-img-2{
+    position: absolute;
+    bottom: 170px;
+    left: -90px;
+    animation-duration: 2s !important;
+    animation: 3s linear 1s infinite alternate animatesubimg2;
+  animation-delay: 2s; 
+    animation-timing-function: ease-out;
+}
+@keyframes animatesubimg2{
+    from {
+        bottom: 170px;
+      }
+      to {
+        bottom: 150px;
+      }
 }
