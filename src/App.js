@@ -5,6 +5,7 @@ import 'bootstrap/js/dist/collapse';
 import Nav from './components/navbar/Nav';
 import Home from './pages/home/Home';
 import Footer from './components/footer/Footer';
+import Features from './pages/features/Features';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Nav/>
       <Routes>
        <Route path='/' element={<Home/>}/>
+       <Route path='/features' element={<Features/>}/>
       </Routes>
       <Footer/>
     </Router>

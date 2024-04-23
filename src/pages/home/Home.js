@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import Banner from '../../components/banner/Banner';
 import './home.css';
 import Button from '../../components/button/Button';
-import { frequentlyimg, topfeaturesimg, topintegrationimg } from '../../assets/image';
+import { frequentlyimg, registernowimg, topfeaturesimg, topintegrationimg } from '../../assets/image';
 import { motion, useInView } from 'framer-motion';
 
 function Home() {
@@ -162,7 +162,7 @@ function Home() {
                         <div className='col-12'>
                             <span className='free-trial-con-header benefits-header'>Benefits of Asign2</span>
                         </div>
-                        <div className='col-md-6'>
+                        <div className='col-md-6 ben-col'>
                             <svg xmlns="http://www.w3.org/2000/svg" width="59" height="49" viewBox="0 0 59 49" fill="none">
                                 <g clip-path="url(#clip0_105_4917)">
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M26.7723 23.512C21.464 23.512 17.1377 19.2366 17.1377 13.966C17.1377 13.6052 17.1488 13.2872 17.1825 13.0041C17.2273 12.5989 17.5914 12.3049 17.9991 12.3479C18.4081 12.3923 18.7049 12.7531 18.6614 13.157C18.6392 13.3859 18.6277 13.6496 18.6277 13.9546C18.6277 18.4053 22.2806 22.0245 26.7723 22.0245C31.264 22.0245 34.9165 18.4053 34.9165 13.9546C34.9165 13.6593 34.9054 13.419 34.8828 13.1997C34.838 12.7946 35.1365 12.4338 35.5454 12.3907C35.9544 12.3463 36.3186 12.642 36.3617 13.0362C36.3954 13.3205 36.4068 13.6052 36.4068 13.9546C36.4068 19.2253 32.0802 23.512 26.7723 23.512Z" fill="url(#paint0_linear_105_4917)" />
@@ -237,7 +237,7 @@ function Home() {
                                 sem nec torLorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ut sem nec tor Lorem ipsum dolorconsectetur Lorem ipsum dolor
                                 sittorLorem ipsum dolor sit amet, ipsum dolor sit amet, consectetur </p>
                         </div>
-                        <div className='col-md-6'>
+                        <div className='col-md-6 ben-col'>
                             <svg xmlns="http://www.w3.org/2000/svg" width="59" height="49" viewBox="0 0 59 49" fill="none">
                                 <g clip-path="url(#clip0_105_4917)">
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M26.7723 23.512C21.464 23.512 17.1377 19.2366 17.1377 13.966C17.1377 13.6052 17.1488 13.2872 17.1825 13.0041C17.2273 12.5989 17.5914 12.3049 17.9991 12.3479C18.4081 12.3923 18.7049 12.7531 18.6614 13.157C18.6392 13.3859 18.6277 13.6496 18.6277 13.9546C18.6277 18.4053 22.2806 22.0245 26.7723 22.0245C31.264 22.0245 34.9165 18.4053 34.9165 13.9546C34.9165 13.6593 34.9054 13.419 34.8828 13.1997C34.838 12.7946 35.1365 12.4338 35.5454 12.3907C35.9544 12.3463 36.3186 12.642 36.3617 13.0362C36.3954 13.3205 36.4068 13.6052 36.4068 13.9546C36.4068 19.2253 32.0802 23.512 26.7723 23.512Z" fill="url(#paint0_linear_105_4917)" />
@@ -312,7 +312,7 @@ function Home() {
                                 sem nec torLorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ut sem nec tor Lorem ipsum dolorconsectetur Lorem ipsum dolor
                                 sittorLorem ipsum dolor sit amet, ipsum dolor sit amet, consectetur </p>
                         </div>
-                        <div className='col-md-6 mt-4'>
+                        <div className='col-md-6 mt-4 ben-col'>
                             <svg xmlns="http://www.w3.org/2000/svg" width="59" height="49" viewBox="0 0 59 49" fill="none">
                                 <g clip-path="url(#clip0_105_4917)">
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M26.7723 23.512C21.464 23.512 17.1377 19.2366 17.1377 13.966C17.1377 13.6052 17.1488 13.2872 17.1825 13.0041C17.2273 12.5989 17.5914 12.3049 17.9991 12.3479C18.4081 12.3923 18.7049 12.7531 18.6614 13.157C18.6392 13.3859 18.6277 13.6496 18.6277 13.9546C18.6277 18.4053 22.2806 22.0245 26.7723 22.0245C31.264 22.0245 34.9165 18.4053 34.9165 13.9546C34.9165 13.6593 34.9054 13.419 34.8828 13.1997C34.838 12.7946 35.1365 12.4338 35.5454 12.3907C35.9544 12.3463 36.3186 12.642 36.3617 13.0362C36.3954 13.3205 36.4068 13.6052 36.4068 13.9546C36.4068 19.2253 32.0802 23.512 26.7723 23.512Z" fill="url(#paint0_linear_105_4917)" />
@@ -387,7 +387,7 @@ function Home() {
                                 sem nec torLorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ut sem nec tor Lorem ipsum dolorconsectetur Lorem ipsum dolor
                                 sittorLorem ipsum dolor sit amet, ipsum dolor sit amet, consectetur </p>
                         </div>
-                        <div className='col-md-6 mt-4'>
+                        <div className='col-md-6 mt-4 ben-col'>
                             <svg xmlns="http://www.w3.org/2000/svg" width="59" height="49" viewBox="0 0 59 49" fill="none">
                                 <g clip-path="url(#clip0_105_4917)">
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M26.7723 23.512C21.464 23.512 17.1377 19.2366 17.1377 13.966C17.1377 13.6052 17.1488 13.2872 17.1825 13.0041C17.2273 12.5989 17.5914 12.3049 17.9991 12.3479C18.4081 12.3923 18.7049 12.7531 18.6614 13.157C18.6392 13.3859 18.6277 13.6496 18.6277 13.9546C18.6277 18.4053 22.2806 22.0245 26.7723 22.0245C31.264 22.0245 34.9165 18.4053 34.9165 13.9546C34.9165 13.6593 34.9054 13.419 34.8828 13.1997C34.838 12.7946 35.1365 12.4338 35.5454 12.3907C35.9544 12.3463 36.3186 12.642 36.3617 13.0362C36.3954 13.3205 36.4068 13.6052 36.4068 13.9546C36.4068 19.2253 32.0802 23.512 26.7723 23.512Z" fill="url(#paint0_linear_105_4917)" />
@@ -467,28 +467,36 @@ function Home() {
                                 <Button />
                             </div>
                             <div className="col-4 free-trial-con-btn">
-                            <button className="button-home">Get Started</button>
+                                <button className="button-home" role="button">Get Started</button>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
             <section className="content-block image-s quotation-block-1 black-overlay-6 parallax" data-stellar-background-ratio="0.55">
-          <div className="container-fluid">
-            <div className="demo-wrapper">
-              <div className='container home-back-con'>
-                <div className='row justify-content-center'>
-                <div className='col-12 text-center top-integration-header-div'>
-                            <span className='top-integration-header'>Top Integrations</span>
-                            <p className='Top-Integrations-para'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ut sem nec tor Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ut sem nec torLorem ipsum dolor sit amet, consectetur m u</p>
-                            <img src={topintegrationimg} className="img-fluid" alt="..."></img>
+                <div className="container-fluid">
+                    <div className="demo-wrapper">
+                        <div className='container home-back-con'>
+                            <div className='row justify-content-center'>
+                                <div className='col-12 text-center top-integration-header-div'>
+                                    <span className='top-integration-header'>Top Integrations</span>
+                                    <p className='Top-Integrations-para'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ut sem nec tor Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ut sem nec torLorem ipsum dolor sit amet, consectetur m u</p>
+                                    <img src={topintegrationimg} className="img-fluid mt-4" alt="..."></img>
+                                    <div className='top-integ-img-text-div'>
+                                        <span className='1st-span'>microsoft exchange</span>
+                                        <span className='ms-str 2st-span'>microsoft stream</span>
+                                        <span className='ms-str 3st-span'>schedule</span>
+                                        <span className='4st-span'>sharepoint</span>
+                                        <span className='5st-span'>onedrive</span>
+                                        <span className='6st-span'>microsoft teams</span>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
+                    </div>
                 </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section>
+            </section>
+            <section>
                 <div className='container free-trial-con'>
                     <div className='row gx-0 justify-content-center'>
                         <div className='col-12'>
@@ -508,9 +516,11 @@ function Home() {
                             <span className='cont-span'>30 days free trial. Any doubts? <a className='cont-links' href='#'>Contact us</a></span>
                         </div>
                         <div className='lock-icon-div'>
+                            <div className="spinner spinner-item--2"></div>
                             <div className='lock-back-img'></div>
                         </div>
                         <div className='girl-icon'>
+                            <div className="spinner spinner-item--2"></div>
                             <div className='girl-back-img'></div>
                         </div>
                     </div>
@@ -556,10 +566,10 @@ function Home() {
                                 </div>
                             </div>
 
-                            </div>
-                            <div className='col-md-4'>
-                            <img src={frequentlyimg} className="img-fluid frequently-img" alt="Responsive image"/>
-                            </div>
+                        </div>
+                        <div className='col-md-4'>
+                            <img src={frequentlyimg} className="img-fluid frequently-img" alt="Responsive image" />
+                        </div>
                     </div>
                 </div>
                 {/* <div className='container-fluid frequently-ask-ques-back-block'>

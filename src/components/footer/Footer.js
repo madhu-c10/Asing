@@ -1,10 +1,59 @@
 import React from 'react';
 import './footer.css';
-import { footerlogo } from '../../assets/image';
+import { footerlogo, registernowimg } from '../../assets/image';
+import Button from '../button/Button';
 
 function Footer() {
     return (
         <>
+         <section className='register-now-back-img'>
+                <div className='container'>
+                    <div className='row'>
+                        <div className='col-md-6'>
+                        <img src={registernowimg} className="img-fluid register-now-img" alt="..."/>
+                        </div>
+                        <div className='col-md-6 text-center'>
+                            <span className='register-now-header mt-4'>Register now</span>
+                            <p className='register-now-para'>Lorem ipsum dolor sit amet, consec adipiscing elit. Nullam ut sem nec torLorem ipsum dolor </p>
+                            <section class="get-in-touch">
+                                <form className="contact-form row">
+                                    <div className="form-field col-lg-6">
+                                        <input id="name" className="input-text js-input" type="text" required />
+                                        <label className="label" for="name">Name</label>
+                                    </div>
+                                    <div className="form-field col-lg-6 ">
+                                        <input id="phonenumber" className="input-text js-input" type="number" required />
+                                        <label className="label" for="email">Phone Number</label>
+                                    </div>
+                                    <div className="form-field col-lg-12">
+                                        <input id="message" class="input-text js-input" type="text" required />
+                                        <label className="label" for="message">Business Mail ID</label>
+                                    </div>
+                                    <div className="form-field col-lg-12">
+                                        <input id="message" class="input-text js-input" type="text" required />
+                                        <label className="label" for="message">Organization Name</label>
+                                    </div>
+                                    <div className="form-field col-lg-6 ">
+                                        <input id="company" class="input-text js-input" type="text" required />
+                                        <label className="label" for="company">Country</label>
+                                    </div>
+                                    <div className="form-field col-lg-6 ">
+                                        <input id="phone" className="input-text js-input" type="text" required />
+                                        <label className="label" for="phone">Country</label>
+                                    </div>
+                                    <div className="form-field col-lg-12">
+                                        <input id="message" class="input-text js-input" type="text" required />
+                                        <label className="label" for="message">Leave Message (If any)</label>
+                                    </div>
+                                    <div className="form-field col-lg-12">
+                                        <Button/>
+                                    </div>
+                                </form>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </section>
             <svg className='footer-svg' xmlns="http://www.w3.org/2000/svg" width="1440" height="29" viewBox="0 0 1440 29" fill="none">
                 <path d="M-0.147461 28.9571L1441 0V28.9571H-0.147461Z" fill="#2AB8D5" />
             </svg>
@@ -102,7 +151,6 @@ function Footer() {
                                     <span className='copy-right-text'>Privacy Policy</span>
                                     <div className='footer-line-div'></div>
                                     <span className='copy-right-text'>Terms of service</span>
-                                    <div className='footer-line-div'></div>
                                 </div>
                             </div>
                     </div>

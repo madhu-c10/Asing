@@ -40,7 +40,7 @@ function Nav() {
                         </div>
                         <div className="links-con">
                             <ul className={close ? "slider" : "ul-style"}>
-                                <li className='li-style li-one'><a href="#" className='a-style'>Features</a></li>
+                                <li className='li-style li-one'><a href="/features" className='a-style'>Features</a></li>
                                 <li className='li-style'><a href="3" className='a-style'>Pricing</a></li>
                                 <li className='li-style'><a href="#" className='a-style'>Download</a></li>
                                 <li className='li-style'><a href="#" className='a-style'>Blogs</a></li>
